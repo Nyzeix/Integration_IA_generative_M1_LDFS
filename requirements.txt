@@ -1,0 +1,38 @@
+# Dépendances Python pour le cours M1 — Intégration des systèmes d'IA générative
+# Installer avec : pip install -r requirements.txt
+
+# Appels aux LLMs via API
+openai>=1.0.0
+mistralai>=0.4.0
+requests>=2.31.0
+
+# Variables d'environnement
+python-dotenv>=1.0.0
+
+# Serveur API local
+fastapi>=0.110.0
+uvicorn>=0.29.0
+
+# Modèles open source Hugging Face
+transformers>=4.40.0
+huggingface-hub>=0.22.0
+torch>=2.2.0
+sentencepiece>=0.2.0
+accelerate>=0.29.0
+
+# Embeddings et recherche vectorielle (Room 5)
+sentence-transformers>=2.7.0
+chromadb>=0.4.24
+
+# Lecture de PDF (Room 5)
+PyMuPDF>=1.24.0
+
+# Comptage de tokens (Room 4)
+tiktoken>=0.6.0
+
+# Traitement de texte et analyse (Room 6, 7)
+nltk>=3.8.1
+
+# Notebooks (optionnel)
+jupyter>=1.0.0
+ipykernel>=6.29.0

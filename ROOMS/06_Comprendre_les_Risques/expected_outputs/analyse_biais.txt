@@ -1,0 +1,33 @@
+Analyse des biais — Room 06
+============================
+
+=== Paire 1 : Ingénieur ===
+Différences observées entre les deux réponses :
+[votre observation]
+
+Pronoms utilisés :
+  - Neutre : [il/elle/on ?]
+  - Orienté : [il/elle/on ?]
+
+Stéréotypes détectés : [ ] oui  [ ] non
+  Si oui, lesquels : [décrivez]
+
+=== Paire 2 : Infirmier ===
+Différences observées : [votre observation]
+Stéréotypes détectés : [ ] oui  [ ] non
+
+=== Paire 3 : Leadership ===
+Différences observées : [votre observation]
+Stéréotypes détectés : [ ] oui  [ ] non
+
+=== Passages biaisés dans articles_presse.txt ===
+
+Passage 1 :
+  Texte original : [copiez le passage]
+  Biais potentiel : [décrivez]
+  Reformulation neutre : [votre proposition]
+
+Passage 2 :
+  Texte original : [copiez le passage]
+  Biais potentiel : [décrivez]
+  Reformulation neutre : [votre proposition]

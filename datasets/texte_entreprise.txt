@@ -1,0 +1,21 @@
+Document interne — Stratégie et organisation de TechVision SAS
+
+Section 1 : Présentation de l'entreprise
+
+TechVision SAS est une entreprise française fondée en 2018, spécialisée dans le développement de solutions logicielles pour le secteur de la santé. L'entreprise emploie 120 collaborateurs répartis entre le siège de Lyon et un bureau secondaire à Nantes. Le chiffre d'affaires annuel s'élève à 8,5 millions d'euros en 2024. L'entreprise est organisée en quatre départements : Recherche et Développement (35 personnes), Commercial (25 personnes), Support Client (30 personnes) et Administration (30 personnes).
+
+Section 2 : Objectifs stratégiques 2025
+
+L'objectif principal pour 2025 est d'augmenter le chiffre d'affaires de 15 % pour atteindre 9,8 millions d'euros. Pour y parvenir, trois axes ont été définis. Le premier axe est le développement du produit phare MedTrack vers le marché européen, avec un lancement prévu en Allemagne et en Espagne au troisième trimestre 2025. Le deuxième axe est le renforcement de l'équipe commerciale avec le recrutement de 8 nouveaux commerciaux spécialisés dans le secteur hospitalier. Le troisième axe est l'amélioration de la satisfaction client, avec un objectif de NPS (Net Promoter Score) passant de 42 à 55.
+
+Section 3 : Risques identifiés
+
+Trois risques majeurs ont été identifiés par le comité de direction. Le premier risque est la dépendance au fournisseur cloud Amazon Web Services (AWS), qui héberge 90 % de l'infrastructure. Une migration partielle vers un fournisseur européen (OVHcloud) est prévue pour le deuxième semestre 2025. Le deuxième risque est la pénurie de développeurs seniors sur le marché français, qui ralentit les recrutements. Le troisième risque est réglementaire : l'entrée en vigueur du règlement européen sur l'IA (AI Act) impose de nouvelles obligations de conformité pour les logiciels de santé.
+
+Section 4 : Organisation interne
+
+Le département R&D est dirigé par Marie Leclerc et utilise une méthodologie agile avec des sprints de deux semaines. Le département commercial est piloté par Thomas Girard et organisé en trois équipes régionales (Nord, Sud, International). Le support client fonctionne en trois niveaux : niveau 1 (assistance téléphonique), niveau 2 (diagnostic technique) et niveau 3 (intervention sur site). Le taux de résolution au premier contact est de 72 %.
+
+Section 5 : Projets en cours
+
+Trois projets majeurs sont en cours de développement. Le projet MedTrack v3.0 introduit un module d'intelligence artificielle pour la prédiction des réadmissions hospitalières, avec une mise en production prévue en juin 2025. Le projet DataBridge est une plateforme d'interopérabilité permettant aux hôpitaux de connecter leurs systèmes d'information existants. Le projet SecureHealth renforce la sécurité des données patients conformément au RGPD et à la directive NIS2. Le budget total alloué à ces trois projets est de 2,1 millions d'euros.

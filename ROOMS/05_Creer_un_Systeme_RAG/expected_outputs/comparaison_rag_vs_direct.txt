@@ -1,0 +1,20 @@
+Comparaison RAG vs réponse directe — Room 05
+===============================================
+
+Question posée : [votre question ici]
+
+--- Réponse RAG (via le pipeline) ---
+[Collez la réponse du script 17 ici]
+
+--- Réponse directe (sans contexte) ---
+[Collez la réponse du script 01 avec la même question ici]
+
+--- Analyse ---
+1. La réponse RAG est-elle plus précise ? [ ] oui  [ ] non
+   Explication : [votre observation]
+
+2. La réponse directe contient-elle des informations inventées ? [ ] oui  [ ] non
+   Explication : [votre observation]
+
+3. Dans quel cas utiliseriez-vous le RAG plutôt qu'un appel direct ?
+   [Votre réponse ici]

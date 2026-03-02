@@ -1,0 +1,23 @@
+Fichier d'exercices — Room 02 : Prompts à améliorer
+=====================================================
+
+Voici 3 prompts vagues. Pour chacun, identifiez ce qui manque
+et réécrivez-le en prompt structuré dans votre fichier mon_prompt_v1.txt.
+
+--- PROMPT 1 ---
+Parle-moi des réseaux de neurones.
+
+Problèmes à identifier :
+- [votre analyse ici]
+
+--- PROMPT 2 ---
+Aide-moi avec mon code Python.
+
+Problèmes à identifier :
+- [votre analyse ici]
+
+--- PROMPT 3 ---
+Explique l'apprentissage automatique.
+
+Problèmes à identifier :
+- [votre analyse ici]

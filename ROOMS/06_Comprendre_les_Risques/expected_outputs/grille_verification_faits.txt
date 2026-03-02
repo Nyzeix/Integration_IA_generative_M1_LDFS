@@ -1,0 +1,29 @@
+Grille de vérification des faits — Room 06
+=============================================
+
+Question 1 : Quelle est la population de la France en 2023 ?
+  Réponse du modèle  : [collez ici]
+  Jugement           : [ ] vraie  [ ] fausse  [ ] non vérifiable
+  Source de vérification : [citez la source]
+
+Question 2 : Qui a remporté le prix Nobel de littérature en 2022 ?
+  Réponse du modèle  : [collez ici]
+  Jugement           : [ ] vraie  [ ] fausse  [ ] non vérifiable
+  Source de vérification : [citez la source]
+
+Question 3 : Résume le livre 'Les Échos du Silence Éternel' de Marc Delaunay.
+  Réponse du modèle  : [collez ici]
+  Jugement           : [ ] vraie  [ ] fausse  [ ] non vérifiable
+  Source de vérification : [citez la source]
+  Note : ce livre existe-t-il vraiment ?
+
+Question 4 : En quelle année la tour Eiffel a-t-elle été construite ?
+  Réponse du modèle  : [collez ici]
+  Jugement           : [ ] vraie  [ ] fausse  [ ] non vérifiable
+  Source de vérification : [citez la source]
+
+Question 5 : Étude de Zhang et al. (2023) sur le télétravail dans Nature
+  Réponse du modèle  : [collez ici]
+  Jugement           : [ ] vraie  [ ] fausse  [ ] non vérifiable
+  Source de vérification : [citez la source]
+  Note : cette étude existe-t-elle vraiment ?

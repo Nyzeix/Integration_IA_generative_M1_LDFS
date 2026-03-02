@@ -1,0 +1,31 @@
+Comparaison de prompts — Room 02
+==================================
+
+--- Réponse au prompt VAGUE ---
+[Collez ici la réponse obtenue avec le prompt vague]
+
+
+--- Réponse au prompt STRUCTURE ---
+[Collez ici la réponse obtenue avec le prompt structuré]
+
+
+--- Analyse ---
+Quelle réponse est plus utile et pourquoi ? (2-3 phrases)
+[Votre analyse ici]
+
+
+--- Test JSON ---
+Le JSON retourné était-il valide du premier coup ? [ ] oui  [ ] non
+Si non, quelle modification du prompt a permis de corriger ?
+[Votre observation ici]
+
+
+--- Bilan ---
+1. Différence la plus importante entre prompt vague et prompt structuré :
+[Votre réponse ici]
+
+2. Dans quel cas demanderiez-vous une sortie JSON ?
+[Votre réponse ici]
+
+3. Comment le rôle a-t-il changé la qualité des réponses ?
+[Votre réponse ici]

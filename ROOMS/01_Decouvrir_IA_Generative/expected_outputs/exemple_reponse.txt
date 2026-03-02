@@ -1,0 +1,17 @@
+Exemple de sortie attendue pour le script 01_premier_prompt.py
+===============================================================
+
+=== Prompt envoyé ===
+Qui a écrit le roman Les Fleurs du Mal ?
+
+=== Réponse du modèle ===
+Le recueil de poèmes "Les Fleurs du Mal" a été écrit par Charles Baudelaire. Il a été publié pour la première fois en 1857. Baudelaire est considéré comme l'un des précurseurs du symbolisme et de la poésie moderne.
+
+=== Informations sur l'échange ===
+Tokens pour le prompt  : 17
+Tokens pour la réponse : 52
+Total de tokens        : 69
+
+---------------------------------------------------------------
+Note pédagogique : votre sortie sera légèrement différente selon le modèle utilisé
+et la formulation exacte du prompt. L'important est que la structure soit identique.
