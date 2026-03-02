@@ -22,10 +22,10 @@ except Exception:
 
 # Le prompt dont on veut connaitre la taille en tokens
 prompt = (
-    "Tu es un professeur universitaire specialise en intelligence artificielle. "
-    "Explique a un etudiant debutant ce qu'est le machine learning "
-    "en utilisant uniquement des exemples du quotidien. "
-    "Limite ta reponse a 100 mots."
+    "Tu es un professeur universitaire spécialisé en intelligence artificielle. "
+    "Explique à un étudiant débutant ce qu'est le machine learning "
+    "en utilisant uniquement des exemples complets et détaillés. "
+    "Limite ta réponse à 1 millions de mots."
 )
 
 print("=== Comptage de tokens ===")

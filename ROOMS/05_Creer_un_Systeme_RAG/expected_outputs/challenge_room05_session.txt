@@ -1,0 +1,88 @@
+=== Chargement du fichier ===
+Fichier chargé : datasets/texte_entreprise.txt
+Caracteres : 2935 | Mots : 440
+
+=== Decoupage en segments ===
+Segments crées : 3
+
+=== Construction de l'index vectoriel ===
+Loading weights: 100%|███████████████████████| 103/103 [00:00<00:00, 6795.01it/s, Materializing param=pooler.dense.weight]
+BertModel LOAD REPORT from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED    :can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Géneration des embeddings...
+Index prêt : 3 segments indexés.
+
+[API] Fournisseur : Groq (gratuit)
+[API] Modele     : llama-3.1-8b-instant
+
+=== Systeme RAG prêt ===
+Posez vos questions sur le document. Tapez 'quitter' pour arretter.
+
+Question : Quand TechVision a été fondé ?
+
+--- Passages sources ---
+
+[Source 1] (distance : 0.9707)
+Document interne - Stratégie et organisation de TechVision SAS Section 1 : Présentation de l'entreprise TechVision SAS est une entreprise française fondée en 2018, spécialisée dans le développement de solutions logicielles pour le secteur de la santé. L'entreprise emploie 120 collaborateurs réparti...
+
+[Source 2] (distance : 1.2239)
+niveau 3 (intervention sur site). Le taux de résolution au premier contact est de 72 %. Section 5 : Projets en cours Trois projets majeurs sont en cours de développement. Le projet MedTrack v3.0 introduit un module d'intelligence artificielle pour la prédiction des réadmissions hospitalières, avec u...
+
+[Source 3] (distance : 1.2964)
+l'amélioration de la satisfaction client, avec un objectif de NPS (Net Promoter Score) passant de 42 à 55. Section 3 : Risques identifiés Trois risques majeurs ont été identifiés par le comité de direction. Le premier risque est la dépendance au fournisseur cloud Amazon Web Services (AWS), qui héber...
+
+--- Reponse ---
+TechVision SAS a été fondé en 2018.
+
+(Citation : Section 1 : Présentation de l'entreprise)
+
+Question : Qui dirige le département R&D ?
+
+--- Passages sources ---
+
+[Source 1] (distance : 1.3206)
+l'amélioration de la satisfaction client, avec un objectif de NPS (Net Promoter Score) passant de 42 à 55. Section 3 : Risques identifiés Trois risques majeurs ont été identifiés par le comité de direction. Le premier risque est la dépendance au fournisseur cloud Amazon Web Services (AWS), qui héber...
+
+[Source 2] (distance : 1.3457)
+niveau 3 (intervention sur site). Le taux de résolution au premier contact est de 72 %. Section 5 : Projets en cours Trois projets majeurs sont en cours de développement. Le projet MedTrack v3.0 introduit un module d'intelligence artificielle pour la prédiction des réadmissions hospitalières, avec u...
+
+[Source 3] (distance : 1.3595)
+Document interne - Stratégie et organisation de TechVision SAS Section 1 : Présentation de l'entreprise TechVision SAS est une entreprise française fondée en 2018, spécialisée dans le développement de solutions logicielles pour le secteur de la santé. L'entreprise emploie 120 collaborateurs réparti...
+
+--- Reponse ---
+Marie Leclerc dirige le département R&D.
+
+ Passage pertinent : 
+"Le département R&D est dirigé par Marie Leclerc et utilise une méthodologie agile avec des sprints de deux semaines." (Section 4 : Organisation interne)
+
+Question : Quels projets sont actuellements en cours ?
+
+--- Passages sources ---
+
+[Source 1] (distance : 1.3413)
+niveau 3 (intervention sur site). Le taux de résolution au premier contact est de 72 %. Section 5 : Projets en cours Trois projets majeurs sont en cours de développement. Le projet MedTrack v3.0 introduit un module d'intelligence artificielle pour la prédiction des réadmissions hospitalières, avec u...
+
+[Source 2] (distance : 1.4184)
+Document interne - Stratégie et organisation de TechVision SAS Section 1 : Présentation de l'entreprise TechVision SAS est une entreprise française fondée en 2018, spécialisée dans le développement de solutions logicielles pour le secteur de la santé. L'entreprise emploie 120 collaborateurs réparti...
+
+[Source 3] (distance : 1.4443)
+l'amélioration de la satisfaction client, avec un objectif de NPS (Net Promoter Score) passant de 42 à 55. Section 3 : Risques identifiés Trois risques majeurs ont été identifiés par le comité de direction. Le premier risque est la dépendance au fournisseur cloud Amazon Web Services (AWS), qui héber...
+
+--- Reponse ---
+Selon les extraits, trois projets majeurs sont actuellement en cours de développement :
+
+1. Le projet MedTrack v3.0, qui introduit un module d'intelligence artificielle pour la prédiction des réadmissions hospitalières, avec une mise en production prévue en juin 2025. (Section 5 : Projets en cours)
+2. Le projet DataBridge, qui est une plateforme d'interopérabilité permettant aux hôpitaux de connecter leurs systèmes d'information existants. (Section 5 : Projets en cours)
+3. Le projet SecureHealth, qui renforce la sécurité des données patients conformément au RGPD et à la directive NIS2. (Section 5 : Projets en cours)
+
+Ces informations sont mentionnées dans le passage suivant :
+
+"Section 5 : Projets en cours Trois projets majeurs sont en cours de développement. Le projet MedTrack v3.0 introduit un module d'intelligence artificielle pour la prédiction des réadmissions hospitalières, avec une mise en production prévue en juin 2025. Le projet DataBridge est une plateforme d'interopérabilité permettant aux hôpitaux de connecter leurs systèmes d'information existants. Le projet SecureHealth renforce la sécurité des données patients conformément au RGPD et à la directive NIS2. Le budget total alloué à ces trois projets est de 2,1 millions d'euros."
+
+Question : quitter
+Au revoir !

@@ -5,6 +5,7 @@ import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
 
+from openai import AuthenticationError, RateLimitError, APIConnectionError
 from utils import creer_client, MODELE, FOURNISSEUR
 
 client = creer_client()
@@ -17,15 +18,25 @@ print(f"Prompt : {prompt}")
 print()
 
 # Envoi de la requête à l'API
-reponse = client.chat.completions.create(
-    model=MODELE,
-    messages=[
-        {"role": "system", "content": "Tu es un développeur Python expérimenté."},
-        {"role": "user", "content": prompt}
-    ],
-    temperature=0.3,
-    max_tokens=300
-)
+try:
+    reponse = client.chat.completions.create(
+        model=MODELE,
+        messages=[
+            {"role": "system", "content": "Tu es un développeur Python expérimenté."},
+            {"role": "user", "content": prompt}
+        ],
+        temperature=0.3,
+        max_tokens=300
+    )
+except AuthenticationError as e:
+    print("Erreur d'authentification — vérifiez votre clé API :", e)
+    sys.exit(1)
+except RateLimitError as e:
+    print("Limite de requêtes atteinte — réessayez plus tard :", e)
+    sys.exit(1)
+except APIConnectionError as e:
+    print("Erreur de connexion à l'API — vérifiez votre réseau :", e)
+    sys.exit(1)
 
 # Affichage de la réponse
 print("=== Réponse du modèle ===")

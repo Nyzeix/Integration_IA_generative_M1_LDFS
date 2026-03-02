@@ -1,5 +1,5 @@
 ﻿# Tableau comparatif des modèles - Room 03
-
+Infaisable
 ## Réponses obtenues
 
 ### Mistral-7B-Instruct

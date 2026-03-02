@@ -6,7 +6,7 @@ from rag_utils import charger_pdf, chemin_dataset
 # Chemin vers le fichier PDF a charger
 chemin_pdf = chemin_dataset("rapport_fictif.pdf")
 
-# Chargement du PDF avec PyMuPDF (via rag_utils)
+# Chargement du PDF avec PyMuPDF (via rag_utils)x
 texte_complet = charger_pdf(chemin_pdf)
 
 # Affichage du resultat

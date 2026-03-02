@@ -13,13 +13,7 @@ client = creer_client()
 PROMPT_VAGUE = "Parle-moi des réseaux de neurones."
 
 PROMPT_STRUCTURE = (
-    "Tu es un professeur de Master 1 en informatique. "
-    "Un étudiant n'ayant aucune connaissance en IA te demande une explication. "
-    "Explique ce qu'est un réseau de neurones artificiel en 3 paragraphes : "
-    "1) une analogie avec le cerveau humain, "
-    "2) comment il apprend, "
-    "3) un exemple d'application concrète. "
-    "Utilise un langage simple, sans formule mathématique."
+    "Tu es un expert dans l'intelligence artificielle, tu dois être capable d'expliquer clairement ton raisonnement et fournir une réponse claire, simple et compréhensive par tous, strcuturée sous forme de liste (ou autre, selon ce que l'utilisateur veut). Explique moi le fonctionnement de neurone, sans code, avec un exemple textuelle."
 )
 # --- FIN A MODIFIER ---
 

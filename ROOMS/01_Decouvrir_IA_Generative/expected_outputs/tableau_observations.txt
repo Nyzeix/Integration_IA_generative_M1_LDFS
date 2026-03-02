@@ -2,10 +2,10 @@
 =================================
 A compléter au fil des étapes de practice.md
 
-Etape 1 - Premier prompt
-  Prompt utilisé     : [votre prompt ici]
-  Réponse obtenue    : [résumez en 1-2 phrases]
-  Jugement           : [ ] correcte  [ ] incorrecte  [ ] impossible à vérifier
+Etape 1 — Premier prompt
+  Prompt utilisé     : [Qui a écrit le roman Les Fleurs du Mal ?]
+  Réponse obtenue    : [Le roman "Les Fleurs du Mal" a été écrit par Charles Baudelaire. Il s'agit d'un recueil de poèmes publié en 1857, qui est considéré comme l'un des plus importants et des plus influents de la littérature française du XIXe siècle. Les poèmes de Baudelaire dans "Les Fleurs du Mal" traitent de thèmes tels que la beauté, la mort, la décadence, la sensualité et la condition humaine. Le recueil a été considéré comme scandaleux à l'époque de sa publication en raison de son contenu érotique et de ses critiques de la société bourgeoise.]
+  Jugement           : [X] correcte  [ ] incorrecte  [ ] impossible à vérifier
 
 Etape 2 - Hallucination
   Prompt utilisé     : [votre prompt ici]
@@ -15,15 +15,48 @@ Etape 2 - Hallucination
 
 Etape 3 - Comparaison de formulations
   Prompt A           : Quelle est la capitale de l'Australie ?
-  Réponse A          : [votre réponse ici]
+  Réponse A          : [La capitale de l'Australie est Canberra]
   Prompt B           : Quelle est la capitale de l'Australie ? Réponds en une seule phrase.
-  Réponse B          : [votre réponse ici]
-  Différence observée: [oui/non - expliquez si oui]
+  Réponse B          : [La capitale de l'Australie est Canberra]
+  Différence observée: [Non, car il répondait déjà en une seule phrase sans la requête "Réponds en une seule phrase".]
 
 Etape 4 - Effet de la température
   Prompt utilisé     : [le prompt du script 02]
-  Réponse température 0   (exécution 1) : [résumez]
-  Réponse température 0   (exécution 2) : [résumez]
-  Réponse température 0.9 (exécution 1) : [résumez]
-  Réponse température 0.9 (exécution 2) : [résumez]
-  Variabilité observée : [ ] aucune  [ ] légère  [ ] forte
+  Réponse température 0   (exécution 1) : [
+=== Réponse avec température 0 (déterministe) ===
+La photosynthèse est le processus par lequel les plantes, les algues et certains types de bactéries convertissent l'énergie solaire en énergie chimique sous forme de glucides. Ce processus se déroule en plusieurs étapes :
+
+1. L'énergie solaire est capturée par les chloroplastes, des organites présents dans les cellules végétales.
+2. L'eau (H2O) et le dioxyde de carbone (CO2) sont absorbés par les racines et les feuilles des plantes.
+3. L'énergie solaire est utilisée pour convertir l'eau et le dioxyde de carbone en glucose (C6H12O6) et en oxygène (O2) grâce à la réaction chimique suivante : 6 CO2 + 6 H2O + énergie solaire → C6H12O6 + 6 O2.
+4. Le glucose est stocké dans les cellules végétales sous forme de sucres et peut être utilisé pour alimenter les processus vitaux de la plante.
+5. L'oxygène est libéré dans l'atmosphère comme sous-produit de la photosynthèse.
+
+La photosynthèse est essentielle pour la vie sur Terre, car elle fournit l'énergie et les nutrim
+]
+
+  Réponse température 0   (exécution 2) : [IDENTIQUE A LA PREMIERE REQUETE.]
+
+  Réponse température 0.9 (exécution 1) : [
+=== Réponse avec température 0.9 (créative) ===
+La photosynthèse est le processus par lequel les plantes et certains micro-organismes convertissent la lumière du soleil en énergie chimique sous forme de glucose, qui est ensuite utilisée pour le développement et la croissance. Cette transformation est réalisée grâce à l'énergie du rayonnement solaire, de l'eau (H2O) et de dioxyde de carbone (CO2) présents dans l'air.
+
+L'énergie lumineuse est captée par la chlorophylle, une molécule présente dans les feuilles des plantes, qui la transforme en énergie chimique. Cette énergie est ensuite utilisée pour lier les atomes d'hydrogène et de carbone des molécules d'eau et de dioxyde de carbone pour former la glucose, qui est stockée dans les plantes en tant que combustible.
+
+La photosynthèse peut se résumer à l'équation chimique : 6 CO2 + 6 H2O + lumière → C6H12O6 (glucose) + 6 O2 (d'oxygène). La photosynthèse est essentielle pour la vie sur Terre, car elle permet aux plantes de produire leur propre nourriture et contribue à l'oxygénation de l'atmosphère.
+]
+  Réponse température 0.9 (exécution 2) : [
+=== Réponse avec température 0.9 (créative) ===
+La photosynthèse est le processus par lequel les plantes et certains micro-organismes convertissent l'énergie solaire en glucose, un carburant qui leur permet de grandir et de se développer. Ce processus se déroule en trois étapes principales :
+
+1. L'absorption de l'énergie solaire : les plantes utilisent leurs feuilles pour capturer la lumière solaire, qui est ensuite convertie en énergie électrique.
+2. La capture de dioxyde de carbone : les plantes absorbent du dioxyde de carbone de l'air à travers leurs feuilles, où il est converti en sucre.
+3. La réaction de la photosynthèse : l'énergie électrique et le dioxyde de carbone sont utilisés pour produire du glucose, un carburant que les plantes utilisent pour grandir et se développer.
+
+Cette équation résume le processus de la photosynthèse :
+
+6 CO2 + 6 H2O + lumière solaire → C6H12O6 (glucose) + 6 O2
+
+Dans ce processus, les plantes libèrent de l'oxygène comme sous-produit, qui est ensuite libéré dans l'air.
+]
+  Variabilité observée : [ ] aucune  [ ] légère  [X] forte

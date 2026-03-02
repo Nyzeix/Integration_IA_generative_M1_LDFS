@@ -9,8 +9,15 @@ from huggingface_hub import InferenceClient
 load_dotenv()
 HF_TOKEN = os.getenv("HF_TOKEN")
 
-# ID du modèle instruction Mistral sur Hugging Face
-MODEL_ID = "mistralai/Mistral-7B-Instruct-v0.3:fastest"
+# URL de l'API d'inférence pour Mistral-7B-Instruct
+# C'est un modèle instruction créé par Mistral AI (entreprise française)
+#API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.1"
+API_URL = "https://router.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.3"
+
+# En-têtes HTTP : on envoie le token pour s'authentifier
+headers = {
+    "Authorization": f"Bearer {HF_TOKEN}"
+}
 
 # Le prompt à envoyer - utilisez le même prompt pour les 3 modèles
 prompt = "Explique en 3 phrases simples ce qu'est une base de données relationnelle."

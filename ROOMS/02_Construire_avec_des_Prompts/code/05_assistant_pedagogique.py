@@ -22,9 +22,13 @@ def expliquer_sujet(sujet):
     #   - Le sujet à expliquer
     #   - Une contrainte de format (3 paragraphes : définition, analogie, exemple)
     #   - Une contrainte de longueur (maximum 150 mots)
+    
     prompt_explication = (
         # A COMPLETER
-        f"Explique le sujet suivant : {sujet}"  # Version basique à améliorer
+        f"Tu es un professeur bienveillant pour des étudiants sans base en IA. "
+        f"Explique le sujet suivant : {sujet} "
+        f"Utilise un format de 3 paragraphes : définition, analogie, exemple. "
+        f"Limite ta réponse à 150 mots maximum."
     )
 
     reponse = client.chat.completions.create(
@@ -44,14 +48,15 @@ def proposer_exercice(sujet):
     # un exercice pratique simple sur le sujet fourni.
     prompt_exercice = (
         # A COMPLETER
-        f"Propose un exercice sur le sujet suivant : {sujet}"  # Version basique à améliorer
+        f"Tu es un professeur bienveillant pour des étudiants sans base en IA. "
+        f"Propose un exercice pratique simple sur le sujet suivant : {sujet}"
     )
 
     reponse = client.chat.completions.create(
         model=MODELE,
         messages=[{"role": "user", "content": prompt_exercice}],
         temperature=0.5,
-        max_tokens=200
+        max_tokens=400
     )
     return reponse.choices[0].message.content
 

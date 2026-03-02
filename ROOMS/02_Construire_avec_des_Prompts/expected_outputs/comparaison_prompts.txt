@@ -2,30 +2,82 @@
 ==================================
 
 --- Réponse au prompt VAGUE ---
-[Collez ici la réponse obtenue avec le prompt vague]
+
+
+Les réseaux de neurones sont un type d'intelligence artificielle inspiré par le fonctionnement du cerveau humain. Ils sont composés de plusieurs couches de neurones artificiels, appelés "nœuds" ou "neurones", qui sont connectés entre eux par des synapses.
+
+**Fonctionnement d'un neurone**
+
+Un neurone artificiel est une unité de calcul qui prend en entrée plusieurs signaux d'entrée, les traite et les envoie à une sortie. Chaque neurone a plusieurs entrées, appelées "synapses", qui reçoivent des signaux d'autres neurones. Les signaux d'entrée sont multipliés par des poids, qui déterminent l'importance de chaque signal. Les signaux multipliés sont ensuite additionnés et soumis à une fonction d'activation, qui détermine la sortie du neurone.
+
+**Types de réseaux de neurones**
+
+Il existe plusieurs types de réseaux de neurones, notamment :
+
+1. **Réseau de neurones à couches cachées** : ce type de réseau a plusieurs couches de neurones, chacune traitant les signaux d'entrée de manière différente. Les couches cachées sont utilisées pour extraire des caractéristiques des données d'entrée.
+2. **Réseau de neurones convolutionnel** : ce type de réseau utilise des filtres convolutionnels pour traiter les données d'entrée, ce qui permet de détecter des motifs et des structures dans les données.
+3. **Réseau de neurones récurrent** : ce type de réseau utilise des boucles de rétroaction pour traiter les signaux d'entrée, ce qui permet de prendre en compte l'histoire des données.
+
+**Avantages des réseaux de neurones**
+
+
+Réponse pas complète
 
 
 --- Réponse au prompt STRUCTURE ---
-[Collez ici la réponse obtenue avec le prompt structuré]
+Je vais vous expliquer le fonctionnement d'un neurone de manière simple et claire.
+
+**Qu'est-ce qu'un neurone ?**
+
+Un neurone est une unité de base de l'intelligence artificielle qui simule le fonctionnement d'un neurone biologique. Il est composé de plusieurs parties :
+
+1. **Entrées** : Les entrées sont les informations qui sont envoyées au neurone. Elles peuvent être des nombres, des textes, des images, etc.
+2. **Poids** : Les poids sont des coefficients qui sont associés à chaque entrée. Ils déterminent l'importance de chaque entrée dans la décision finale.
+3. **Somme** : La somme est la somme des produits des entrées et des poids.
+4. **Fonction d'activation** : La fonction d'activation est une fonction mathématique qui est appliquée à la somme pour obtenir la sortie finale.
+
+**Exemple textuel**
+
+Imaginez que vous voulez créer un neurone qui détermine si un mot est positif ou négatif. Les entrées sont les caractères du mot, les poids sont les coefficients qui déterminent l'importance de chaque caractère, et la fonction d'activation est une fonction qui détermine si le mot est positif ou négatif.
+
+Par exemple, si le mot est "bonjour", les entrées pourraient être :
+
+* E (entrée 1)
+* B (entrée 2)
+* O (entrée 3)
+* N (entrée 4)
+* J (entrée 5)
+* O (entrée 6)
+* U (entrée 7)
+* R (entrée 8)
+
+Les poids pourraient être :
+
+* E : 0,2
+* B : 0,5
+* O : 0
+
+Réponse non complète
 
 
 --- Analyse ---
 Quelle réponse est plus utile et pourquoi ? (2-3 phrases)
-[Votre analyse ici]
+Réponse incomplète dans les deux cas.
 
 
 --- Test JSON ---
-Le JSON retourné était-il valide du premier coup ? [ ] oui  [ ] non
+Le JSON retourné était-il valide du premier coup ? [X] oui  [ ] non
 Si non, quelle modification du prompt a permis de corriger ?
-[Votre observation ici]
+
+Sans modifier le reste du code, le format du JSON fourni au LLM doit être précis et complet, sans omettre une catégorie, ni en rajouter.
 
 
 --- Bilan ---
 1. Différence la plus importante entre prompt vague et prompt structuré :
-[Votre réponse ici]
+Dans un prompt vague, le LLM va théoriser et choisir de manière déterministe (la plus probable) la réponse à fournir. Dans un prompt structuré, c'est à l'utulisateur de fournir tout ce qu'il souhaite, le contexte, le format de sortie attendue, manière dont le modèle répond.
 
 2. Dans quel cas demanderiez-vous une sortie JSON ?
-[Votre réponse ici]
+Dans un cas ou ce format JSON pourrait servir pour un script, ou pourquoi pas un second agent / LLM.
 
 3. Comment le rôle a-t-il changé la qualité des réponses ?
-[Votre réponse ici]
+Le rôle du LLM (professeur) est, de mon point de vu, un élément clé qui influence beaucoup sa réponse, sa structure. Le rôle permet de "contenir" les divagations potentielles du LLM.

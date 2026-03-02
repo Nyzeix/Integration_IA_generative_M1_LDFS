@@ -1,0 +1,52 @@
+A titre informatif: Jane Doe => Equivalent "Jean Dupont" en anglais (nom commun d'exemple)
+=== Vérification du serveur ===
+Serveur OK : Le serveur fonctionne correctement.
+
+=== Client interactif (avec historique) ===
+Commandes spéciales :
+  'historique' — Afficher l'historique complet
+  'reset'      — Réinitialiser la conversation
+  'quitter'    — Quitter le client
+
+Votre question : Je m'appelle Jane Doe et j'étudie l'intelligence artificielle en Master 1.
+
+Réponse : Bonjour Jane Doe ! Bienvenue dans le monde de l'intelligence artificielle. C'est un domaine passionnant, surtout en Master 1 où tu vas pouvoir approfondir des sujets comme le machine learning, le deep learning, le traitement du langage naturel (NLP) et bien d'autres. N'hésite pas si tu as des questions sur tes cours ou tes projets !
+Tokens utilisés : 142
+
+--- Historique (2 messages) ---
+  1. [Vous] Je m'appelle Jane Doe et j'étudie l'intelligence artificielle en Master 1.
+  2. [Assistant] Bonjour Jane Doe ! Bienvenue dans le monde de l'intelligence artificielle. C'est un domai...
+
+Votre question : Quel est mon prénom et qu'est-ce que j'étudie ?
+
+Réponse : Tu t'appelles Jane Doe et tu étudies l'intelligence artificielle en Master 1.
+Tokens utilisés : 198
+
+--- Historique (4 messages) ---
+  1. [Vous] Je m'appelle Jane Doe et j'étudie l'intelligence artificielle en Master 1.
+  2. [Assistant] Bonjour Jane Doe ! Bienvenue dans le monde de l'intelligence artificielle. C'est un domai...
+  3. [Vous] Quel est mon prénom et qu'est-ce que j'étudie ?
+  4. [Assistant] Tu t'appelles Jane Doe et tu étudies l'intelligence artificielle en Master 1.
+
+Votre question : Peux-tu me suggérer un sujet de projet en rapport avec mon domaine d'études ?
+
+Réponse : Bien sûr Jane Doe ! Voici une idée de projet en IA pour ton Master 1 : un système de questions-réponses (RAG) qui utilise des documents PDF de cours pour répondre aux questions des étudiants. Tu pourrais combiner des embeddings vectoriels avec un modèle de langage pour créer un assistant pédagogique intelligent. C'est un projet qui touche au NLP, au retrieval augmented generation et aux bases vectorielles.
+Tokens utilisés : 287
+
+--- Historique (6 messages) ---
+  1. [Vous] Je m'appelle Jane Doe et j'étudie l'intelligence artificielle en Master 1.
+  2. [Assistant] Bonjour Jane Doe ! Bienvenue dans le monde de l'intelligence artificielle. C'est un domai...
+  3. [Vous] Quel est mon prénom et qu'est-ce que j'étudie ?
+  4. [Assistant] Tu t'appelles Jane Doe et tu étudies l'intelligence artificielle en Master 1.
+  5. [Vous] Peux-tu me suggérer un sujet de projet en rapport avec mon domaine d'études ?
+  6. [Assistant] Bien sûr Jane Doe ! Voici une idée de projet en IA pour ton Master 1 : un système de ques...
+
+Votre question : quitter
+Au revoir.
+
+--- Observations ---
+- Échange 1 : L'utilisateur se présente (prénom + domaine d'études).
+- Échange 2 : Le modèle se souvient du prénom (Jane Doe) et du domaine (IA en M1) grâce à l'historique.
+- Échange 3 : Le modèle utilise le contexte complet pour proposer un projet personnalisé lié à l'IA.
+- L'historique s'allonge progressivement (2 → 4 → 6 messages) et est affiché après chaque réponse.
+- Le serveur maintient la mémoire de la conversation sans base de données.

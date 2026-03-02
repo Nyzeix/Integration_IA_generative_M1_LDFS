@@ -1,0 +1,1 @@
+La température permet de développer/tolérer la créativité de l'IA. Sans température, ce dernier est entièrement déterministe, et réponds toujours la même chose à la même question.

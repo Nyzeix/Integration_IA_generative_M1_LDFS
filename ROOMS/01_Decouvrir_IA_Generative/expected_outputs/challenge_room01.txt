@@ -1,0 +1,13 @@
+
+=== Prompt envoyé ===
+Quand les Etats-Unis ont ils déclaré la guerre à l'Iran?
+
+=== Réponse du modèle ===
+Les États-Unis n'ont pas déclaré la guerre à l'Iran de manière officielle. Cependant, il y a eu plusieurs conflits et tensions entre les deux pays au cours de l'histoire.
+
+L'un des conflits les plus notables est la crise des otages en 1979-1981, où des militants iraniens ont pris en otage 52 diplomates américains à Téhéran. Les États-Unis ont lancé une opération militaire pour libérer les otages, mais elle a échoué. La crise a abouti à la fin de la révolution iranienne et à l'instauration d'un régime islamique en Iran.
+
+En 1988, les États-Unis ont lancé des attaques aériennes contre des navires iraniens dans le golfe Persique, ce qui a entra
+
+=== Explication ===
+Le modèle hallucine et ne réponds pas correctement, car ces données ne sont pas à jour.

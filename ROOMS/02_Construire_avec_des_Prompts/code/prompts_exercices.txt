@@ -8,16 +8,28 @@ et réécrivez-le en prompt structuré dans votre fichier mon_prompt_v1.txt.
 Parle-moi des réseaux de neurones.
 
 Problèmes à identifier :
-- [votre analyse ici]
+- [Le prompt n'est pas assez fourni, le LLM ne saura pas comment répondre "comme attendu" par l'utilisateur. Le LLM fournira une réponse, qui expliquera et donnera (probablement) des informations viables, mais pourrait partir dans une direction spécifique, omettre des détails importants ou ne pas être correctement structuré. Il faudrait à minima rajouter comment le LLM doit expliquer, et la structure attendue.
+Exemple:
+Tu es un expert dans l'intelligence artificielle, tu dois être capable d'expliquer clairement ton raisonnement et fournir une réponse claire, simple et compréhensive par tous, strcuturée sous forme de liste (ou autre, selon ce que l'utilisateur veut). Explique moi le fonctionnement de neurone, sans code, avec un exemple textuelle.
+]
 
 --- PROMPT 2 ---
 Aide-moi avec mon code Python.
 
 Problèmes à identifier :
-- [votre analyse ici]
+- [S'il s'agit de créer une fonctionnalité spécifique, mentionner l'objectif de la fonction, sa sortie, ses arguments d'entrées et ses limites. S'il s'agit d'un debuggage, fournir le contexte (Sur quel machine tourne le script, par exemple), le message d'erreur, la partie du code qui provoque l'erreur (Pas uniquement la ligne, même si cela fonctionnerait dans certains cas, mais plutôt la "zone" du code)
+Exemple:
+En python, développe la fonction suivante:
+Arguments d'entrée: double a, double b
+Arguments de sortie: double x
+La fonction a pour objectif de diviser le chiffre a par le chiffre b, en prenant en compte les erreurs potentiels (division par 0, chiffre trop grand) et de relevé une exception si c'est le cas.
+]
 
 --- PROMPT 3 ---
 Explique l'apprentissage automatique.
 
 Problèmes à identifier :
-- [votre analyse ici]
+- [Quelle est le contexte de cette phrase ? Le LLM ne peut pas le deviner. Il essaiera de répondre, surement en se basant sur le contexte ou le terme "Apprentissage automatique" est le plus utilisé. Le contexte doit être fourni au LLM.
+Exemple:
+Dans le domaine de l'intelligence artificielle, qu'est ce que l'apprentissage automatique et quelles sont ses différentes avec les autres types d'apprentissages ? Réponds en décrivant l'apprentissage automatique, puis créer un tableau de comparaison.
+]

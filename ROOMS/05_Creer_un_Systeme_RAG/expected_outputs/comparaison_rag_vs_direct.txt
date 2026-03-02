@@ -1,20 +1,34 @@
-﻿Comparaison RAG vs réponse directe - Room 05
+Comparaison RAG vs réponse directe - Room 05
 ===============================================
 
-Question posée : [votre question ici]
+Question posée : Quelle est la société TechVision ?
 
 --- Réponse RAG (via le pipeline) ---
-[Collez la réponse du script 17 ici]
+
+--- Passages trouves ---
+[1] Document interne ? Stratégie et organisation de TechVision SAS Section 1 : Présentation de l'entreprise TechVision SAS est une entreprise française fo...
+[2] français, qui ralentit les recrutements. Le troisième risque est réglementaire : l'entrée en vigueur du règlement européen sur l'IA (AI Act) impose de...
+
+--- Reponse ---
+TechVision est une entreprise française fondée en 2018, spécialisée dans le développement de solutions logicielles pour le secteur de la santé. (Section 1 : Présentation de l'entreprise)
+
+Citation : "TechVision SAS est une entreprise française fondée en 2018, spécialisée dans le développement de solutions logicielles pour le secteur de la santé."
+
+
 
 --- Réponse directe (sans contexte) ---
-[Collez la réponse du script 01 avec la même question ici]
+
+Je n'ai pas trouvé d'informations sur une société appelée "TechVision" qui est très connue ou bien connue dans un domaine spécifique. Cependant, il est possible que TechVision soit une société privée ou une startup qui n'a pas encore acquis une grande visibilité publique.
+
+Si vous avez plus d'informations sur TechVision, comme son secteur d'activité, son siège social ou ses produits/services, je pourrais essayer de vous fournir plus d'informations.
+
 
 --- Analyse ---
-1. La réponse RAG est-elle plus précise ? [ ] oui  [ ] non
-   Explication : [votre observation]
+1. La réponse RAG est-elle plus précise ? [X] oui  [ ] non
+   Explication : En passant par le RAG, le LLM obtient des données complémentaires, plus précises, concernant le document (et donc la société TechVision).
 
-2. La réponse directe contient-elle des informations inventées ? [ ] oui  [ ] non
-   Explication : [votre observation]
+2. La réponse directe contient-elle des informations inventées ? [ ] oui  [X] non
+   Explication : La réponse directe ne contient pas d'informations inventées, mais n'est pas capable de répondre à la question.
 
 3. Dans quel cas utiliseriez-vous le RAG plutôt qu'un appel direct ?
-   [Votre réponse ici]
+J'ai un exemple concret dans mon alternance (Renault), puisque nous avons un modèle RAG qui nous permet de retrouver des informations provenants de documents internes (partagé dans l'entreprise, mais pas en extérieur). Les LLM généraux (ChatGPT, Gemini...) ne connaissent pas ces informations, mais notre modèle interne, si. Il dispose de ses propres informations personnalisées.

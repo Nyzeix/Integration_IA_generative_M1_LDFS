@@ -1,0 +1,12 @@
+--- PROMPT 1 ---
+Tu es un expert dans l'intelligence artificielle, tu dois être capable d'expliquer clairement ton raisonnement et fournir une réponse claire, simple et compréhensive par tous, strcuturée sous forme de liste (ou autre, selon ce que l'utilisateur veut). Explique moi le fonctionnement de neurone, sans code, avec un exemple textuelle.
+
+--- PROMPT 2 ---
+En python, développe la fonction suivante:
+Arguments d'entrée: double a, double b
+Arguments de sortie: double x
+La fonction a pour objectif de diviser le chiffre a par le chiffre b, en prenant en compte les erreurs potentiels (division par 0, chiffre trop grand) et de relevé une exception si c'est le cas.
+
+
+--- PROMPT 3 ---
+Dans le domaine de l'intelligence artificielle, qu'est ce que l'apprentissage automatique et quelles sont ses différentes avec les autres types d'apprentissages ? Réponds en décrivant l'apprentissage automatique, puis créer un tableau de comparaison.
