@@ -1,4 +1,4 @@
-# Rubric — Room 02
+﻿# Rubric - Room 02
 
 ## Barème (sur 20 points)
 

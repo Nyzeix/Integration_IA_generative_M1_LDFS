@@ -1,4 +1,4 @@
-# Practice — Room 02 : Construire avec des prompts
+﻿# Practice - Room 02 : Construire avec des prompts
 
 ## Objectif
 
@@ -6,7 +6,7 @@ Transformer des prompts vagues en prompts structurés, obtenir des sorties JSON 
 
 ---
 
-## Etape 1 — Identifier les défauts d'un prompt vague
+## Etape 1 - Identifier les défauts d'un prompt vague
 
 Ouvrez le fichier `code/prompts_exercices.txt`. Il contient 3 prompts vagues.
 
@@ -19,7 +19,7 @@ Enregistrez vos réécriture dans un fichier `mon_prompt_v1.txt` dans le dossier
 
 ---
 
-## Etape 2 — Tester le prompt avant et après amélioration
+## Etape 2 - Tester le prompt avant et après amélioration
 
 Ouvrez `code/03_tester_prompt_structure.py`. Lisez-le entièrement.
 
@@ -39,7 +39,7 @@ Copiez les deux réponses dans `expected_outputs/comparaison_prompts.txt` et ré
 
 ---
 
-## Etape 3 — Obtenir une réponse en JSON
+## Etape 3 - Obtenir une réponse en JSON
 
 Ouvrez `code/04_sortie_json.py` et lisez-le.
 
@@ -60,7 +60,7 @@ Vous devez voir s'afficher dans le terminal :
 
 ---
 
-## Etape 4 — Modifier le prompt JSON
+## Etape 4 - Modifier le prompt JSON
 
 Dans `code/04_sortie_json.py`, modifiez le prompt pour obtenir une fiche de révision sur un autre sujet de votre choix (par exemple : "les types de données Python", "les méthodes HTTP", "les bases du réseau").
 
@@ -70,7 +70,7 @@ Notez dans `expected_outputs/comparaison_prompts.txt` ce qui a fonctionné et ce
 
 ---
 
-## Etape 5 — Construire un assistant pédagogique
+## Etape 5 - Construire un assistant pédagogique
 
 Ouvrez `code/05_assistant_pedagogique.py`. Le squelette du script est fourni avec des commentaires indiquant ce que vous devez compléter.
 
@@ -86,7 +86,7 @@ Testez l'assistant avec au moins 2 sujets différents.
 
 ---
 
-## Etape 6 — Bilan
+## Etape 6 - Bilan
 
 Dans `expected_outputs/comparaison_prompts.txt`, ajoutez une section "Bilan" où vous répondez à ces 3 questions en 2-3 phrases chacune :
 

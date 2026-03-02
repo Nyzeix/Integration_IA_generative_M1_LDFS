@@ -1,4 +1,4 @@
-# Theory — Room 04 : Connecter une API
+﻿# Theory - Room 04 : Connecter une API
 
 ## Problème concret de départ
 
@@ -6,7 +6,7 @@ Vous savez envoyer un prompt depuis un script Python. Mais que se passe-t-il ent
 
 ---
 
-## Notion 1 — L'API
+## Notion 1 - L'API
 
 **Définition** : une API (Application Programming Interface) est un ensemble de règles qui permet à deux programmes de communiquer entre eux. Quand votre script Python envoie un prompt à un LLM hébergé chez OpenAI, il utilise l'API d'OpenAI.
 
@@ -19,7 +19,7 @@ Votre script Python  →  requête HTTP  →  serveur OpenAI  →  modèle GPT  
 
 ---
 
-## Notion 2 — La requête HTTP
+## Notion 2 - La requête HTTP
 
 **Définition** : une requête HTTP est un message standardisé envoyé par votre programme à un serveur distant. Elle contient une adresse (URL), une méthode (GET pour demander, POST pour envoyer), des en-têtes (comme votre clé d'authentification) et un corps (les données, ici le prompt).
 
@@ -38,7 +38,7 @@ response = requests.post(
 
 ---
 
-## Notion 3 — La clé d'API
+## Notion 3 - La clé d'API
 
 **Définition** : une clé d'API est une chaîne de caractères secrète qui identifie votre compte auprès du serveur. Sans cette clé, le serveur refuse votre requête.
 
@@ -56,7 +56,7 @@ cle = os.getenv("OPENAI_API_KEY")
 
 ---
 
-## Notion 4 — La gestion des erreurs
+## Notion 4 - La gestion des erreurs
 
 **Définition** : quand vous envoyez une requête à une API, le serveur répond avec un code de statut qui indique si tout s'est bien passé ou s'il y a eu un problème.
 
@@ -84,7 +84,7 @@ else:
 
 ---
 
-## Notion 5 — Le coût d'utilisation
+## Notion 5 - Le coût d'utilisation
 
 **Définition** : les API de LLM facturent à l'usage, proportionnellement au nombre de tokens traités (prompt + réponse).
 
@@ -99,7 +99,7 @@ else:
 
 ---
 
-## Notion 6 — FastAPI
+## Notion 6 - FastAPI
 
 **Définition** : FastAPI est un framework Python qui permet de créer un serveur web (une API) en quelques lignes de code. Vous pouvez l'utiliser pour exposer votre propre service qui, en interne, interroge un LLM.
 

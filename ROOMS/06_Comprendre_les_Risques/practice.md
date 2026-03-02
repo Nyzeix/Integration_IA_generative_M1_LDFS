@@ -1,4 +1,4 @@
-# Practice — Room 06 : Comprendre les risques
+﻿# Practice - Room 06 : Comprendre les risques
 
 ## Objectif
 
@@ -6,7 +6,7 @@ Détecter concrètement les hallucinations et les biais d'un LLM, analyser une �
 
 ---
 
-## Etape 1 — Détecter des hallucinations
+## Etape 1 - Détecter des hallucinations
 
 Ouvrez et lisez `code/18_detecter_hallucination.py`. Ce script pose 5 questions factuelles au modèle, dont 2 portent sur des sujets fictifs.
 
@@ -20,7 +20,7 @@ Pour chaque réponse, remplissez `expected_outputs/grille_verification_faits.txt
 
 ---
 
-## Etape 2 — Vérifier les faits
+## Etape 2 - Vérifier les faits
 
 Pour les 5 réponses obtenues, effectuez une vérification externe :
 - Utilisez Wikipédia, un moteur de recherche ou une source officielle
@@ -31,7 +31,7 @@ Remplissez toutes les lignes de `expected_outputs/grille_verification_faits.txt`
 
 ---
 
-## Etape 3 — Tester les biais
+## Etape 3 - Tester les biais
 
 Ouvrez et lisez `code/19_tester_biais.py`. Ce script envoie des prompts avec des contextes neutres et des contextes stéréotypés, puis compare les réponses.
 
@@ -45,7 +45,7 @@ Notez les différences de réponse dans `expected_outputs/analyse_biais.txt` :
 
 ---
 
-## Etape 4 — Identifier des biais dans un texte
+## Etape 4 - Identifier des biais dans un texte
 
 Ouvrez `datasets/articles_presse.txt`. Lisez les articles et identifiez 2 passages où un LLM pourrait produire un biais s'il utilisait ce texte comme source.
 
@@ -56,13 +56,13 @@ Consignez vos observations dans `expected_outputs/analyse_biais.txt` :
 
 ---
 
-## Etape 5 — Analyser l'étude de cas
+## Etape 5 - Analyser l'étude de cas
 
 Relisez la section "Etude de cas" dans `theory.md` et répondez aux 3 questions posées. Rédigez vos réponses en phrases complètes (pas en mots-clés) dans un fichier `expected_outputs/etude_de_cas_reponses.txt`.
 
 ---
 
-## Etape 6 — Bonnes pratiques
+## Etape 6 - Bonnes pratiques
 
 Rédigez une liste de 5 règles de bonne pratique pour utiliser un LLM en contexte professionnel. Chaque règle doit tenir en une phrase et être suivie d'une justification d'une ligne.
 

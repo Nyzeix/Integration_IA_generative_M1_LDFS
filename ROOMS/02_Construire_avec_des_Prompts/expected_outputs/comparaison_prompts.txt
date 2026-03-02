@@ -1,4 +1,4 @@
-Comparaison de prompts — Room 02
+﻿Comparaison de prompts - Room 02
 ==================================
 
 --- Réponse au prompt VAGUE ---

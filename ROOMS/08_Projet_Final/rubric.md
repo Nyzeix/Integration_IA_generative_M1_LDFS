@@ -1,4 +1,4 @@
-# Rubric — Room 08 : Projet final
+﻿# Rubric - Room 08 : Projet final
 
 ## Barème (sur 40 points)
 

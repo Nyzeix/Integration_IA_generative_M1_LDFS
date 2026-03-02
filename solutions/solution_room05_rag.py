@@ -1,4 +1,4 @@
-# Solution Room 05 — Pipeline RAG complet
+﻿# Solution Room 05 - Pipeline RAG complet
 # Ce fichier est un corrigé de référence fonctionnel.
 
 import fitz

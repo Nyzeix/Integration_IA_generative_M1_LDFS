@@ -1,5 +1,5 @@
-# Script 05 — Assistant pédagogique interactif
-# Room 02 — Construire avec des prompts
+﻿# Script 05 - Assistant pédagogique interactif
+# Room 02 - Construire avec des prompts
 # Complétez les parties marquées "# A COMPLETER"
 
 import sys

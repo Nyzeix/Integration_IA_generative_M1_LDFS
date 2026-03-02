@@ -1,4 +1,4 @@
-Comparaison RAG vs réponse directe — Room 05
+﻿Comparaison RAG vs réponse directe - Room 05
 ===============================================
 
 Question posée : [votre question ici]

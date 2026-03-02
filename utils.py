@@ -1,4 +1,4 @@
-# utils.py — Module utilitaire pour le cours
+﻿# utils.py - Module utilitaire pour le cours
 # Détecte automatiquement l'API gratuite disponible et crée le bon client.
 #
 # Ordre de priorité :

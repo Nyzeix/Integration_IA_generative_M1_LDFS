@@ -1,4 +1,4 @@
-# Room 08 — Projet final
+﻿# Room 08 - Projet final
 
 ## Objectif
 
@@ -17,10 +17,10 @@ Un système fonctionnel documenté, livré avec :
 
 Choisissez l'un des cas suivants ou proposez le vôtre (soumis à validation) :
 
-1. **Assistant de recherche documentaire** — Un système qui indexe un corpus de documents et répond aux questions en citant les sources.
-2. **Assistant de rédaction spécialisé** — Un outil qui aide à rédiger du contenu dans un domaine donné, avec vérification de cohérence.
-3. **Analyseur de feedback** — Un pipeline qui analyse des avis utilisateurs, extrait des tendances et produit un rapport structuré.
-4. **Assistant de veille technologique** — Un système qui résume des articles, les classe par thème et répond aux questions.
+1. **Assistant de recherche documentaire** - Un système qui indexe un corpus de documents et répond aux questions en citant les sources.
+2. **Assistant de rédaction spécialisé** - Un outil qui aide à rédiger du contenu dans un domaine donné, avec vérification de cohérence.
+3. **Analyseur de feedback** - Un pipeline qui analyse des avis utilisateurs, extrait des tendances et produit un rapport structuré.
+4. **Assistant de veille technologique** - Un système qui résume des articles, les classe par thème et répond aux questions.
 
 ## Fichiers de cette Room
 

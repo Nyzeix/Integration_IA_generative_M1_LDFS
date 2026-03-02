@@ -1,4 +1,4 @@
-# Rubric — Room 06
+﻿# Rubric - Room 06
 
 ## Barème (sur 20 points)
 

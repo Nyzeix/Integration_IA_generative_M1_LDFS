@@ -1,5 +1,5 @@
-# Script 02 — Comparer les réponses d'un LLM à deux températures différentes
-# Room 01 — Découvrir l'IA générative
+﻿# Script 02 - Comparer les réponses d'un LLM à deux températures différentes
+# Room 01 - Découvrir l'IA générative
 
 import sys
 import os

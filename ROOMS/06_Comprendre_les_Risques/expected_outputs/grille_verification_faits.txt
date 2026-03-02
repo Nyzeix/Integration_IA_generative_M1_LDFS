@@ -1,4 +1,4 @@
-Grille de vérification des faits — Room 06
+﻿Grille de vérification des faits - Room 06
 =============================================
 
 Question 1 : Quelle est la population de la France en 2023 ?

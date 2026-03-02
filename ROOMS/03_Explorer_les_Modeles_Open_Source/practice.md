@@ -1,4 +1,4 @@
-# Practice — Room 03 : Explorer les modèles open source
+﻿# Practice - Room 03 : Explorer les modèles open source
 
 ## Objectif
 
@@ -6,7 +6,7 @@ Interroger trois modèles open source avec le même prompt et comparer objective
 
 ---
 
-## Etape 1 — Configurer l'accès Hugging Face
+## Etape 1 - Configurer l'accès Hugging Face
 
 Vérifiez que votre fichier `.env` contient votre token Hugging Face :
 
@@ -22,7 +22,7 @@ python -c "from dotenv import load_dotenv; import os; load_dotenv(); print('Toke
 
 ---
 
-## Etape 2 — Interroger Mistral-7B-Instruct
+## Etape 2 - Interroger Mistral-7B-Instruct
 
 Ouvrez et lisez `code/06_tester_mistral.py`.
 
@@ -38,7 +38,7 @@ Si le modèle prend du temps à répondre la première fois, c'est normal : le s
 
 ---
 
-## Etape 3 — Interroger Llama 2
+## Etape 3 - Interroger Llama 2
 
 Ouvrez et lisez `code/07_tester_llama2.py`.
 
@@ -52,7 +52,7 @@ Copiez la réponse dans le tableau comparatif.
 
 ---
 
-## Etape 4 — Interroger Flan-T5
+## Etape 4 - Interroger Flan-T5
 
 Ouvrez et lisez `code/08_tester_flan_t5.py`.
 
@@ -66,7 +66,7 @@ Copiez la réponse dans le tableau comparatif. Notez que Flan-T5 est un modèle 
 
 ---
 
-## Etape 5 — Remplir le tableau comparatif
+## Etape 5 - Remplir le tableau comparatif
 
 Ouvrez `expected_outputs/tableau_comparaison_modeles.md`. Pour chaque modèle, évaluez :
 
@@ -77,7 +77,7 @@ Ouvrez `expected_outputs/tableau_comparaison_modeles.md`. Pour chaque modèle, �
 
 ---
 
-## Etape 6 — Analyse critique
+## Etape 6 - Analyse critique
 
 Rédigez une analyse de 5 lignes minimum dans `expected_outputs/tableau_comparaison_modeles.md` (section "Analyse") qui répond à ces questions :
 

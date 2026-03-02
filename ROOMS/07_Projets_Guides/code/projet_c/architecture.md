@@ -1,4 +1,4 @@
-# Architecture — Projet C : Assistant analyse de texte
+﻿# Architecture - Projet C : Assistant analyse de texte
 
 ## Description
 

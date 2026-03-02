@@ -1,4 +1,4 @@
-# Theory — Room 02 : Construire avec des prompts
+﻿# Theory - Room 02 : Construire avec des prompts
 
 ## Problème concret de départ
 
@@ -8,7 +8,7 @@ Pourquoi ? Parce que votre prompt était trop vague. La qualité de la réponse 
 
 ---
 
-## Notion 1 — Le prompt vague
+## Notion 1 - Le prompt vague
 
 **Définition** : un prompt vague est une instruction incomplète qui ne précise ni le contexte, ni la tâche exacte, ni le format attendu. Le modèle doit alors "deviner" ce que vous voulez, et sa réponse reflète cette incertitude.
 
@@ -27,7 +27,7 @@ Explique-moi quelque chose sur les bases de données.
 
 ---
 
-## Notion 2 — Le prompt structuré
+## Notion 2 - Le prompt structuré
 
 **Définition** : un prompt structuré est une instruction qui précise explicitement le rôle du modèle, le contexte, la tâche et le format de sortie attendu.
 
@@ -51,7 +51,7 @@ Utilise un vocabulaire accessible, sans jargon technique avancé.
 
 ---
 
-## Notion 3 — Le rôle
+## Notion 3 - Le rôle
 
 **Définition** : donner un rôle au modèle (via une instruction "system" ou en début de prompt) oriente son comportement, son ton et son niveau de détail.
 
@@ -65,7 +65,7 @@ Utilise un vocabulaire accessible, sans jargon technique avancé.
 
 ---
 
-## Notion 4 — Les contraintes de sortie
+## Notion 4 - Les contraintes de sortie
 
 **Définition** : une contrainte de sortie est une instruction qui limite ou formate explicitement la réponse du modèle.
 
@@ -80,7 +80,7 @@ Utilise un vocabulaire accessible, sans jargon technique avancé.
 
 ---
 
-## Notion 5 — La sortie JSON
+## Notion 5 - La sortie JSON
 
 **Définition** : JSON (JavaScript Object Notation) est un format structuré pour représenter des données, composé de clés et de valeurs. Un programme Python peut lire ce format directement.
 

@@ -1,4 +1,4 @@
-# Solution Room 02 — Prompts structurés et assistant pédagogique complet
+﻿# Solution Room 02 - Prompts structurés et assistant pédagogique complet
 # Ce fichier est un corrigé de référence.
 
 import sys

@@ -1,4 +1,4 @@
-# Rubric — Room 03
+﻿# Rubric - Room 03
 
 ## Barème (sur 20 points)
 

@@ -1,4 +1,4 @@
-# Room 02 — Construire avec des prompts
+﻿# Room 02 - Construire avec des prompts
 
 ## Objectif
 

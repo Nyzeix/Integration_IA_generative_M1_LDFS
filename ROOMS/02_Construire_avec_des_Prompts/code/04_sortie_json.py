@@ -1,5 +1,5 @@
-# Script 04 — Obtenir une sortie JSON valide depuis un LLM
-# Room 02 — Construire avec des prompts
+﻿# Script 04 - Obtenir une sortie JSON valide depuis un LLM
+# Room 02 - Construire avec des prompts
 
 import json
 import sys
@@ -41,7 +41,7 @@ print()
 try:
     fiche = json.loads(texte_brut)
 
-    print("=== JSON valide — Contenu extrait ===")
+    print("=== JSON valide - Contenu extrait ===")
     print(f"Titre    : {fiche['titre']}")
     print(f"Niveau   : {fiche['niveau']}")
     print(f"Définition : {fiche['definition']}")

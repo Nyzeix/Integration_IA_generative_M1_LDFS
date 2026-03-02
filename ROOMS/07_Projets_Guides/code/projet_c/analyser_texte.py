@@ -1,5 +1,5 @@
-# Projet C — Assistant analyse de texte avec sortie JSON
-# Room 07 — Projets guidés
+﻿# Projet C - Assistant analyse de texte avec sortie JSON
+# Room 07 - Projets guidés
 
 import json
 import os

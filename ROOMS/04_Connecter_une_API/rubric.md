@@ -1,4 +1,4 @@
-# Rubric — Room 04
+﻿# Rubric - Room 04
 
 ## Barème (sur 20 points)
 

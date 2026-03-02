@@ -1,4 +1,4 @@
-# Practice — Room 01 : Découvrir l'IA générative
+﻿# Practice - Room 01 : Découvrir l'IA générative
 
 ## Objectif de cette pratique
 
@@ -20,7 +20,7 @@ OPENAI_API_KEY=votre_cle_ici
 
 ---
 
-## Etape 1 — Premier contact avec un LLM
+## Etape 1 - Premier contact avec un LLM
 
 Ouvrez le fichier `code/01_premier_prompt.py` et lisez-le entièrement avant de l'exécuter.
 
@@ -38,7 +38,7 @@ Vous devez voir une réponse s'afficher dans le terminal.
 
 ---
 
-## Etape 2 — Provoquer une hallucination
+## Etape 2 - Provoquer une hallucination
 
 Modifiez le prompt dans `code/01_premier_prompt.py` pour poser une question sur un auteur ou un événement fictif. Par exemple :
 
@@ -50,11 +50,11 @@ Ré-exécutez le script. Le modèle va probablement inventer un auteur et une bi
 
 **Ce que vous observez** : une hallucination. Le modèle génère une réponse plausible mais fausse.
 
-**A noter** : consignez cette réponse dans `expected_outputs/tableau_observations.txt` à la ligne "Etape 2 — hallucination".
+**A noter** : consignez cette réponse dans `expected_outputs/tableau_observations.txt` à la ligne "Etape 2 - hallucination".
 
 ---
 
-## Etape 3 — Comparer deux questions factuelles
+## Etape 3 - Comparer deux questions factuelles
 
 Modifiez le prompt deux fois et notez les réponses :
 
@@ -67,7 +67,7 @@ Notez vos observations dans `expected_outputs/tableau_observations.txt` à la li
 
 ---
 
-## Etape 4 — Observer l'effet de la température
+## Etape 4 - Observer l'effet de la température
 
 Ouvrez le fichier `code/02_comparer_temperatures.py` et lisez-le entièrement.
 
@@ -87,7 +87,7 @@ Ré-exécutez le script 3 fois et notez si les réponses varient dans `expected_
 
 ---
 
-## Etape 5 — Remplir le tableau d'observations
+## Etape 5 - Remplir le tableau d'observations
 
 Ouvrez `expected_outputs/tableau_observations.txt`. Complétez toutes les lignes avec vos résultats des étapes précédentes.
 
@@ -98,7 +98,7 @@ Le tableau attend :
 
 ---
 
-## Etape 6 — Analyse réflexive
+## Etape 6 - Analyse réflexive
 
 Sur votre éditeur de texte, rédigez 3 phrases qui répondent à ces questions :
 

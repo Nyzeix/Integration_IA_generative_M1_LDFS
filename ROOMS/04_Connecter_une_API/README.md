@@ -1,4 +1,4 @@
-# Room 04 — Connecter une API
+# Room 04 - Connecter une API
 
 ## Objectif
 
@@ -21,6 +21,6 @@ Comprendre ce qu'est une API, envoyer des requêtes Python à un LLM distant, g�
 | `rubric.md` | Critères d'évaluation |
 | `code/09_appel_api_simple.py` | Appel API avec affichage complet |
 | `code/10_compter_tokens.py` | Estimation du coût avant envoi |
-| `code/11_mini_api_fastapi.py` | Mini serveur FastAPI |
+| `code/mini_api_fastapi.py` | Mini serveur FastAPI |
 | `code/12_client_local.py` | Client qui interroge le serveur local |
 | `expected_outputs/schema_flux.txt` | Gabarit de schéma du flux |

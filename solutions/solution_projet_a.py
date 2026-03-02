@@ -1,4 +1,4 @@
-# Solution Projet A — Assistant mémoire avec historique complet
+﻿# Solution Projet A - Assistant mémoire avec historique complet
 # Ce fichier est un corrigé de référence.
 
 import sys

@@ -1,5 +1,5 @@
-# Script 01 — Envoyer un premier prompt à un LLM et afficher la réponse brute
-# Room 01 — Découvrir l'IA générative
+﻿# Script 01 - Envoyer un premier prompt à un LLM et afficher la réponse brute
+# Room 01 - Découvrir l'IA générative
 
 # On ajoute le dossier racine du projet au chemin pour pouvoir importer utils.py
 import sys

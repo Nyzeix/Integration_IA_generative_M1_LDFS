@@ -1,5 +1,5 @@
-# Script 06 — Interroger Mistral-7B-Instruct via l'API Hugging Face
-# Room 03 — Explorer les modèles open source
+﻿# Script 06 - Interroger Mistral-7B-Instruct via l'API Hugging Face
+# Room 03 - Explorer les modèles open source
 
 import os
 import requests
@@ -18,7 +18,7 @@ headers = {
     "Authorization": f"Bearer {HF_TOKEN}"
 }
 
-# Le prompt à envoyer — utilisez le même prompt pour les 3 modèles
+# Le prompt à envoyer - utilisez le même prompt pour les 3 modèles
 prompt = "Explique en 3 phrases simples ce qu'est une base de données relationnelle."
 
 # Construction du payload (les données envoyées au serveur)

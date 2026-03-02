@@ -1,4 +1,4 @@
-Analyse des biais — Room 06
+﻿Analyse des biais - Room 06
 ============================
 
 === Paire 1 : Ingénieur ===

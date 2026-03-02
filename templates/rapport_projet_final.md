@@ -1,4 +1,4 @@
-# Rapport de projet final — Intégration des systèmes d'IA générative
+﻿# Rapport de projet final - Intégration des systèmes d'IA générative
 
 **Nom et prénom** : [votre nom]
 **Date de remise** : [date]

@@ -1,4 +1,4 @@
-# Theory — Room 05 : Créer un système RAG
+﻿# Theory - Room 05 : Créer un système RAG
 
 ## Problème concret de départ
 
@@ -10,7 +10,7 @@ La solution : construire un système RAG.
 
 ---
 
-## Notion 1 — La limite de contexte
+## Notion 1 - La limite de contexte
 
 **Définition** : chaque LLM a une fenêtre de contexte, c'est-à-dire un nombre maximum de tokens qu'il peut lire en une seule fois. Tout ce qui dépasse cette limite est ignoré.
 
@@ -22,7 +22,7 @@ La solution : construire un système RAG.
 
 ---
 
-## Notion 2 — L'embedding (représentation vectorielle)
+## Notion 2 - L'embedding (représentation vectorielle)
 
 **Définition** : un embedding est une façon de représenter un morceau de texte sous forme de liste de nombres (un vecteur). Deux textes qui parlent du même sujet auront des vecteurs proches dans l'espace mathématique.
 
@@ -35,7 +35,7 @@ La solution : construire un système RAG.
 
 ---
 
-## Notion 3 — La similarité cosinus
+## Notion 3 - La similarité cosinus
 
 **Définition** : la similarité cosinus est une mesure mathématique qui indique à quel point deux vecteurs pointent dans la même direction. Elle varie entre -1 (opposés) et 1 (identiques).
 
@@ -47,7 +47,7 @@ La solution : construire un système RAG.
 
 ---
 
-## Notion 4 — La base vectorielle
+## Notion 4 - La base vectorielle
 
 **Définition** : une base vectorielle est un système de stockage optimisé pour les embeddings. Elle permet d'ajouter des vecteurs puis de trouver rapidement les plus proches d'un vecteur donné.
 
@@ -61,7 +61,7 @@ La solution : construire un système RAG.
 
 ---
 
-## Notion 5 — L'architecture RAG
+## Notion 5 - L'architecture RAG
 
 **Définition** : RAG (Retrieval-Augmented Generation) est une architecture qui combine la recherche d'information et la génération de texte. Au lieu de demander directement au LLM de répondre, on cherche d'abord les passages pertinents dans une base de connaissances, puis on les fournit au LLM comme contexte.
 

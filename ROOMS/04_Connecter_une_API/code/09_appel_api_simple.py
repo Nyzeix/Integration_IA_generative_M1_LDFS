@@ -1,5 +1,5 @@
-# Script 09 — Appel API simple avec affichage de la réponse et des métadonnées
-# Room 04 — Connecter une API
+﻿# Script 09 - Appel API simple avec affichage de la réponse et des métadonnées
+# Room 04 - Connecter une API
 
 import sys
 import os

@@ -1,5 +1,5 @@
-# Script 08 — Interroger Flan-T5-large via l'API Hugging Face
-# Room 03 — Explorer les modèles open source
+﻿# Script 08 - Interroger Flan-T5-large via l'API Hugging Face
+# Room 03 - Explorer les modèles open source
 
 import os
 import requests

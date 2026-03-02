@@ -1,10 +1,10 @@
-# Practice — Room 07 : Projets guidés
+﻿# Practice - Room 07 : Projets guidés
 
 Réalisez les 3 projets dans l'ordre. Chaque projet suit la même démarche : lire l'architecture, compléter le code, tester et documenter.
 
 ---
 
-## Projet A — Assistant mémoire
+## Projet A - Assistant mémoire
 
 ### Consignes
 
@@ -20,7 +20,7 @@ Réalisez les 3 projets dans l'ordre. Chaque projet suit la même démarche : li
 
 ---
 
-## Projet B — Assistant entreprise
+## Projet B - Assistant entreprise
 
 ### Consignes
 
@@ -40,7 +40,7 @@ Réalisez les 3 projets dans l'ordre. Chaque projet suit la même démarche : li
 
 ---
 
-## Projet C — Assistant analyse de texte
+## Projet C - Assistant analyse de texte
 
 ### Consignes
 

@@ -1,4 +1,4 @@
-# Practice — Room 05 : Créer un système RAG
+﻿# Practice - Room 05 : Créer un système RAG
 
 ## Objectif
 
@@ -6,7 +6,7 @@ Construire un pipeline RAG complet : charger un document, le découper, le vecto
 
 ---
 
-## Etape 1 — Charger un PDF
+## Etape 1 - Charger un PDF
 
 Ouvrez et lisez `code/13_charger_pdf.py`. Ce script utilise PyMuPDF pour extraire le texte d'un fichier PDF.
 
@@ -18,7 +18,7 @@ Vous devez voir le texte brut du document `datasets/rapport_fictif.pdf` affiché
 
 ---
 
-## Etape 2 — Découper le texte en segments
+## Etape 2 - Découper le texte en segments
 
 Ouvrez et lisez `code/14_decouper_texte.py`. Ce script découpe le texte extrait en segments de 300 mots avec un chevauchement de 50 mots entre les segments.
 
@@ -30,7 +30,7 @@ Vous devez voir s'afficher : le nombre total de segments créés et les 3 premie
 
 ---
 
-## Etape 3 — Créer les embeddings et les stocker
+## Etape 3 - Créer les embeddings et les stocker
 
 Ouvrez et lisez `code/15_creer_embeddings.py`. Ce script vectorise chaque segment avec le modèle `all-MiniLM-L6-v2` de sentence-transformers et les stocke dans une collection ChromaDB.
 
@@ -42,7 +42,7 @@ Vous devez voir : le nombre de segments indexés et un exemple de vecteur (les 1
 
 ---
 
-## Etape 4 — Rechercher les segments pertinents
+## Etape 4 - Rechercher les segments pertinents
 
 Ouvrez et lisez `code/16_recherche_vectorielle.py`. Ce script pose une question, la convertit en vecteur et cherche les 3 segments les plus proches dans la base.
 
@@ -54,7 +54,7 @@ Vous devez voir : la question posée, les 3 segments trouvés et leur score de s
 
 ---
 
-## Etape 5 — Pipeline RAG complet
+## Etape 5 - Pipeline RAG complet
 
 Ouvrez et lisez `code/17_rag_complet.py`. Ce script combine toutes les étapes précédentes : il prend une question, cherche les passages pertinents et les envoie au LLM comme contexte pour générer une réponse.
 
@@ -66,7 +66,7 @@ Vous devez voir : la question, les passages trouvés, et la réponse du LLM qui 
 
 ---
 
-## Etape 6 — Comparer RAG vs réponse directe
+## Etape 6 - Comparer RAG vs réponse directe
 
 Posez la même question de deux façons :
 1. Via le pipeline RAG (script 17)

@@ -1,6 +1,6 @@
-# Script 11 — Mini serveur FastAPI qui interroge un LLM
-# Room 04 — Connecter une API
-# Lancer avec : uvicorn ROOMS.04_Connecter_une_API.code.11_mini_api_fastapi:app --reload --port 8000
+# mini_api_fastapi.py - Mini serveur FastAPI qui interroge un LLM
+# Room 04 - Connecter une API
+# Lancer avec : python -m uvicorn code.mini_api_fastapi:app --reload --port 8000
 
 import sys
 import os
@@ -10,10 +10,8 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from utils import creer_client, MODELE
 
-# Création du client (API gratuite détectée automatiquement)
 client = creer_client()
 
-# Création de l'application FastAPI
 app = FastAPI(title="Mini Assistant LLM", version="1.0")
 
 
@@ -29,11 +27,11 @@ class ReponseResult(BaseModel):
 
 @app.post("/question", response_model=ReponseResult)
 def poser_question(req: QuestionRequest):
-    """Reçoit une question, l'envoie au LLM et retourne la réponse."""
+    """Recoit une question, l'envoie au LLM et retourne la reponse."""
     completion = client.chat.completions.create(
         model=MODELE,
         messages=[
-            {"role": "system", "content": "Tu es un assistant concis et pédagogique."},
+            {"role": "system", "content": "Tu es un assistant concis et pedagogique."},
             {"role": "user", "content": req.question}
         ],
         temperature=0.3,
@@ -51,5 +49,5 @@ def poser_question(req: QuestionRequest):
 
 @app.get("/sante")
 def verifier_sante():
-    """Retourne un message simple pour vérifier que le serveur est opérationnel."""
+    """Retourne un message simple pour verifier que le serveur est operationnel."""
     return {"statut": "ok", "message": "Le serveur fonctionne correctement."}

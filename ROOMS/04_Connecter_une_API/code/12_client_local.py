@@ -1,5 +1,5 @@
-# Script 12 — Client Python qui interroge le serveur FastAPI local
-# Room 04 — Connecter une API
+﻿# Script 12 - Client Python qui interroge le serveur FastAPI local
+# Room 04 - Connecter une API
 # Prérequis : le serveur 11_mini_api_fastapi.py doit tourner sur le port 8000
 
 import requests

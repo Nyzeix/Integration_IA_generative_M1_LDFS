@@ -1,4 +1,4 @@
-# Rubric — Room 01
+﻿# Rubric - Room 01
 
 ## Barème de notation (sur 20 points)
 

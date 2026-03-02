@@ -1,4 +1,4 @@
-# Theory — Room 06 : Comprendre les risques
+﻿# Theory - Room 06 : Comprendre les risques
 
 ## Problème concret de départ
 
@@ -8,7 +8,7 @@ Ce scénario n'est pas hypothétique. L'utilisation non contrôlée de l'IA gén
 
 ---
 
-## Notion 1 — L'hallucination (rappel approfondi)
+## Notion 1 - L'hallucination (rappel approfondi)
 
 **Définition** : une hallucination est une affirmation fausse ou inventée que le modèle présente comme vraie. Ce phénomène est inhérent au fonctionnement des LLMs.
 
@@ -22,7 +22,7 @@ Ce scénario n'est pas hypothétique. L'utilisation non contrôlée de l'IA gén
 
 ---
 
-## Notion 2 — Le biais de représentation
+## Notion 2 - Le biais de représentation
 
 **Définition** : un biais de représentation apparaît quand le modèle reproduit ou amplifie des stéréotypes présents dans ses données d'entraînement. Le modèle n'a pas d'intention, mais ses données d'entraînement (internet, livres, forums) contiennent des biais culturels, de genre ou ethniques.
 
@@ -36,7 +36,7 @@ Ce scénario n'est pas hypothétique. L'utilisation non contrôlée de l'IA gén
 
 ---
 
-## Notion 3 — Les données personnelles
+## Notion 3 - Les données personnelles
 
 **Définition** : une donnée personnelle est toute information permettant d'identifier directement ou indirectement une personne physique (nom, adresse, numéro de téléphone, adresse e-mail, numéro de sécurité sociale).
 
@@ -51,7 +51,7 @@ Ce scénario n'est pas hypothétique. L'utilisation non contrôlée de l'IA gén
 
 ---
 
-## Notion 4 — Les risques juridiques
+## Notion 4 - Les risques juridiques
 
 **Définition** : les risques juridiques liés à l'IA générative concernent la responsabilité en cas de contenu erroné, la propriété intellectuelle du contenu généré et la conformité aux réglementations.
 
@@ -66,7 +66,7 @@ Ce scénario n'est pas hypothétique. L'utilisation non contrôlée de l'IA gén
 
 ---
 
-## Notion 5 — Le prompt injection
+## Notion 5 - Le prompt injection
 
 **Définition** : le prompt injection est une technique de manipulation où un texte malveillant est inséré dans les données traitées par le LLM pour modifier son comportement. C'est l'équivalent de l'injection SQL, mais pour les modèles de langage.
 

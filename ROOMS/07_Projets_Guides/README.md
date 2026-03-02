@@ -1,4 +1,4 @@
-# Room 07 — Projets guidés
+﻿# Room 07 - Projets guidés
 
 ## Objectif
 
@@ -15,7 +15,7 @@ Mettre en pratique toutes les compétences des Rooms précédentes dans 3 projet
 ## Structure de chaque projet
 
 Chaque projet contient dans `code/projet_X/` :
-- `architecture.md` — description de l'architecture du projet
+- `architecture.md` - description de l'architecture du projet
 - Un script Python principal à compléter
 - Des fichiers de test
 

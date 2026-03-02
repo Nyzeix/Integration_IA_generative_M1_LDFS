@@ -1,4 +1,4 @@
-# Challenge — Room 04
+# Challenge - Room 04
 
 ## Objectif
 
@@ -6,7 +6,7 @@ Ajouter un historique de conversation à votre assistant local pour qu'il se sou
 
 ## Défi
 
-Modifiez `code/11_mini_api_fastapi.py` et `code/12_client_local.py` pour que :
+Modifiez `code/mini_api_fastapi.py` et `code/12_client_local.py` pour que :
 
 1. Le serveur maintienne une liste de messages (historique de la conversation).
 2. A chaque nouvelle question, les messages précédents sont envoyés au LLM avec la nouvelle question.
@@ -22,5 +22,5 @@ Modifiez `code/11_mini_api_fastapi.py` et `code/12_client_local.py` pour que :
 
 ## Livrable
 
-- Les fichiers `11_mini_api_fastapi.py` et `12_client_local.py` modifiés.
+- Les fichiers `mini_api_fastapi.py` et `12_client_local.py` modifies.
 - Un fichier `challenge_room04.txt` dans `expected_outputs/` montrant une session de 3 échanges consécutifs où le modèle se souvient du contexte.

@@ -1,5 +1,5 @@
-# Script 19 — Tester les biais dans les réponses d'un LLM
-# Room 06 — Comprendre les risques
+﻿# Script 19 - Tester les biais dans les réponses d'un LLM
+# Room 06 - Comprendre les risques
 
 import sys
 import os

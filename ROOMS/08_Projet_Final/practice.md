@@ -1,10 +1,10 @@
-# Practice — Room 08 : Projet final
+﻿# Practice - Room 08 : Projet final
 
 ## Consignes
 
 ---
 
-## Etape 1 — Choisir un cas d'usage
+## Etape 1 - Choisir un cas d'usage
 
 Sélectionnez l'un des cas proposés dans `README.md` ou proposez le vôtre (soumis à validation de l'enseignant). Le cas doit intégrer au minimum :
 - Du prompt engineering (prompts structurés)
@@ -14,7 +14,7 @@ Sélectionnez l'un des cas proposés dans `README.md` ou proposez le vôtre (sou
 
 ---
 
-## Etape 2 — Rédiger la fiche d'architecture
+## Etape 2 - Rédiger la fiche d'architecture
 
 Créez un fichier `code/architecture.md` qui décrit sur 1 page maximum :
 - Les entrées du système (quelles données l'utilisateur fournit)
@@ -25,7 +25,7 @@ Créez un fichier `code/architecture.md` qui décrit sur 1 page maximum :
 
 ---
 
-## Etape 3 — Implémenter les scripts
+## Etape 3 - Implémenter les scripts
 
 Créez dans `code/` les scripts nécessaires. Votre projet doit contenir au minimum :
 - Un script principal exécutable (point d'entrée)
@@ -36,7 +36,7 @@ Chaque script doit être commenté de façon à ce qu'un autre étudiant puisse 
 
 ---
 
-## Etape 4 — Produire une démonstration
+## Etape 4 - Produire une démonstration
 
 Exécutez votre projet et enregistrez une session complète dans `expected_outputs/demo.txt`. La session doit montrer :
 - Le démarrage du système
@@ -45,7 +45,7 @@ Exécutez votre projet et enregistrez une session complète dans `expected_outpu
 
 ---
 
-## Etape 5 — Rédiger le rapport
+## Etape 5 - Rédiger le rapport
 
 Remplissez le modèle `templates/rapport_projet_final.md` (copiez-le dans votre dossier `code/`). Le rapport doit contenir :
 - Description du cas d'usage choisi
@@ -56,7 +56,7 @@ Remplissez le modèle `templates/rapport_projet_final.md` (copiez-le dans votre 
 
 ---
 
-## Etape 6 — Vérifier la checklist
+## Etape 6 - Vérifier la checklist
 
 Avant remise, passez en revue la checklist de `theory.md`. Assurez-vous que chaque point est satisfait.
 

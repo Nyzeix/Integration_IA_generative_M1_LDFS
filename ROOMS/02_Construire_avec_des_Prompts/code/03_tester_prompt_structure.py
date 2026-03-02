@@ -1,5 +1,5 @@
-# Script 03 — Comparer un prompt vague et un prompt structuré
-# Room 02 — Construire avec des prompts
+﻿# Script 03 - Comparer un prompt vague et un prompt structuré
+# Room 02 - Construire avec des prompts
 
 import sys
 import os

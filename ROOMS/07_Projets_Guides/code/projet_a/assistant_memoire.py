@@ -1,5 +1,5 @@
-# Projet A — Assistant mémoire avec historique de conversation
-# Room 07 — Projets guidés
+﻿# Projet A - Assistant mémoire avec historique de conversation
+# Room 07 - Projets guidés
 
 import sys
 import os

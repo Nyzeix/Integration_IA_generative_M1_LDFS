@@ -1,4 +1,4 @@
-# Architecture — Projet B : Assistant entreprise
+﻿# Architecture - Projet B : Assistant entreprise
 
 ## Description
 

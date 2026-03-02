@@ -1,4 +1,4 @@
-# Architecture — Projet A : Assistant mémoire
+﻿# Architecture - Projet A : Assistant mémoire
 
 ## Description
 

@@ -1,4 +1,4 @@
-# Rubric — Room 05
+﻿# Rubric - Room 05
 
 ## Barème (sur 20 points)
 

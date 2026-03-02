@@ -1,10 +1,10 @@
-# Theory — Room 07 : Projets guidés
+﻿# Theory - Room 07 : Projets guidés
 
 Cette Room ne présente pas de nouvelles notions. Elle mobilise les compétences acquises dans les Rooms 1 à 6. Voici un récapitulatif des notions clés nécessaires pour les 3 projets.
 
 ---
 
-## Récapitulatif pour le Projet A — Assistant mémoire
+## Récapitulatif pour le Projet A - Assistant mémoire
 
 **Notions mobilisées** :
 - **Historique de conversation** : le LLM n'a pas de mémoire entre les appels. Pour simuler une conversation continue, on renvoie les messages précédents à chaque nouvelle requête.
@@ -23,7 +23,7 @@ messages = [
 
 ---
 
-## Récapitulatif pour le Projet B — Assistant entreprise
+## Récapitulatif pour le Projet B - Assistant entreprise
 
 **Notions mobilisées** :
 - **Architecture RAG** : charger un document, le découper, le vectoriser, chercher les passages pertinents et générer une réponse contextualisée.
@@ -32,7 +32,7 @@ messages = [
 
 ---
 
-## Récapitulatif pour le Projet C — Assistant analyse de texte
+## Récapitulatif pour le Projet C - Assistant analyse de texte
 
 **Notions mobilisées** :
 - **Prompt structuré avec sortie JSON** : demander au modèle de produire un JSON avec des clés prédéfinies (sentiment, mots-clés, résumé).

@@ -1,4 +1,4 @@
-# Room 05 — Créer un système RAG
+﻿# Room 05 - Créer un système RAG
 
 ## Objectif
 

@@ -1,4 +1,4 @@
-# Rubric — Room 07
+﻿# Rubric - Room 07
 
 ## Barème (sur 20 points)
 

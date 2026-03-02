@@ -1,5 +1,5 @@
-# Projet B — Assistant entreprise avec RAG et citation des sources
-# Room 07 — Projets guidés
+﻿# Projet B - Assistant entreprise avec RAG et citation des sources
+# Room 07 - Projets guidés
 
 import os
 import sys

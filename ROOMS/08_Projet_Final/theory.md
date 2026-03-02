@@ -1,4 +1,4 @@
-# Theory — Room 08 : Projet final
+﻿# Theory - Room 08 : Projet final
 
 Cette Room ne présente pas de nouvelles notions. Elle rassemble les compétences de toutes les Rooms précédentes dans un projet intégrateur.
 

@@ -1,4 +1,4 @@
-# Rapport de Room — [Numéro et titre de la Room]
+﻿# Rapport de Room - [Numéro et titre de la Room]
 
 **Nom et prénom** : [votre nom]
 **Room** : [numéro]

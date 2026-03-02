@@ -1,4 +1,4 @@
-Fichier d'exercices — Room 02 : Prompts à améliorer
+﻿Fichier d'exercices - Room 02 : Prompts à améliorer
 =====================================================
 
 Voici 3 prompts vagues. Pour chacun, identifiez ce qui manque

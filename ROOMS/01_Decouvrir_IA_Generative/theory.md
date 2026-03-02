@@ -1,4 +1,4 @@
-# Theory — Room 01 : Découvrir l'IA générative
+﻿# Theory - Room 01 : Découvrir l'IA générative
 
 ## Problème concret de départ
 
@@ -11,7 +11,7 @@ Cette Room répond à cette question en vous expliquant comment fonctionnent les
 
 ---
 
-## Notion 1 — Le modèle de langage (LLM)
+## Notion 1 - Le modèle de langage (LLM)
 
 **Définition** : un LLM (Large Language Model, ou grand modèle de langage) est un programme informatique entraîné sur des quantités massives de textes pour apprendre à prédire quel mot (ou suite de mots) vient ensuite dans une phrase.
 
@@ -21,7 +21,7 @@ Cette Room répond à cette question en vous expliquant comment fonctionnent les
 
 ---
 
-## Notion 2 — Le token
+## Notion 2 - Le token
 
 **Définition** : un token est la plus petite unité de texte que le modèle traite. Ce n'est pas toujours un mot entier. Cela peut être une syllabe, un mot, ou même une ponctuation.
 
@@ -36,7 +36,7 @@ Cette Room répond à cette question en vous expliquant comment fonctionnent les
 
 ---
 
-## Notion 3 — La prédiction vs la compréhension
+## Notion 3 - La prédiction vs la compréhension
 
 **Définition** : prédire, c'est calculer quelle suite de mots est la plus probable d'après des exemples vus précédemment. Comprendre, c'est saisir le sens réel d'une phrase, ses implications logiques, ses contradictions.
 
@@ -50,7 +50,7 @@ Un LLM donne souvent la bonne réponse sur des cas simples, mais peut échouer s
 
 ---
 
-## Notion 4 — L'hallucination
+## Notion 4 - L'hallucination
 
 **Définition** : on parle d'hallucination quand un LLM génère un texte qui semble vrai et est présenté avec confiance, mais qui est factuellement incorrect.
 
@@ -65,7 +65,7 @@ Un LLM donne souvent la bonne réponse sur des cas simples, mais peut échouer s
 
 ---
 
-## Notion 5 — La température
+## Notion 5 - La température
 
 **Définition** : la température est un paramètre numérique (entre 0 et 1 en général) qui contrôle le degré de variabilité des réponses du modèle.
 

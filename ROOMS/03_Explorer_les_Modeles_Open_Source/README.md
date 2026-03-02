@@ -1,4 +1,4 @@
-# Room 03 — Explorer les modèles open source
+﻿# Room 03 - Explorer les modèles open source
 
 ## Objectif
 

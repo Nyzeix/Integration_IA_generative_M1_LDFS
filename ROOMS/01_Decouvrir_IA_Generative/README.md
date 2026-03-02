@@ -1,4 +1,4 @@
-# Room 01 — Découvrir l'IA générative
+﻿# Room 01 - Découvrir l'IA générative
 
 ## Objectif
 

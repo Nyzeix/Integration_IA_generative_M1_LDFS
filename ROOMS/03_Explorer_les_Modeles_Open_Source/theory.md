@@ -1,4 +1,4 @@
-# Theory — Room 03 : Explorer les modèles open source
+# Theory - Room 03 : Explorer les modèles open source
 
 ## Problème concret de départ
 
@@ -6,7 +6,7 @@ Vous savez maintenant interroger un LLM via une API payante (comme OpenAI). Mais
 
 ---
 
-## Notion 1 — Le modèle de base
+## Notion 1 - Le modèle de base
 
 **Définition** : un modèle de base (ou "base model") est un modèle entraîné uniquement à prédire le mot suivant dans un texte. Il n'a pas été entraîné à répondre à des questions ni à suivre des instructions.
 
@@ -22,7 +22,7 @@ Il complète le texte comme s'il devait écrire la suite d'un document contenant
 
 ---
 
-## Notion 2 — Le modèle instruction (ou modèle "chat")
+## Notion 2 - Le modèle instruction (ou modèle "chat")
 
 **Définition** : un modèle instruction est un modèle de base qui a subi un entraînement supplémentaire pour apprendre à suivre des instructions et à produire des réponses utiles. Cette étape s'appelle le "fine-tuning" (affinage).
 
@@ -38,7 +38,7 @@ La capitale de la France est Paris.
 
 ---
 
-## Notion 3 — La taille d'un modèle
+## Notion 3 - La taille d'un modèle
 
 **Définition** : la taille d'un modèle se mesure en nombre de paramètres. Un paramètre est un coefficient numérique que le modèle a appris pendant son entraînement. Plus un modèle a de paramètres, plus il est capable de capter des relations complexes dans le texte, mais plus il consomme de mémoire et de temps de calcul.
 
@@ -51,11 +51,13 @@ La capitale de la France est Paris.
 | Mistral-7B | 7 milliards | ~14 Go |
 | Llama 2 13B | 13 milliards | ~26 Go |
 
-**Ce qu'il faut retenir** : un modèle plus gros n'est pas toujours meilleur pour votre tâche. Un petit modèle bien affiné peut surpasser un grand modèle généraliste sur une tâche précise.
+**Ce qu'il faut retenir** : un modele plus gros n'est pas toujours meilleur pour votre tache. Un petit modele bien affine peut surpasser un grand modele generaliste sur une tache precise.
+
+**Note** : ces chiffres sont indicatifs et evoluent rapidement. De nouveaux modeles sortent chaque mois avec des performances ameliorees. Verifiez les pages officielles des modeles pour les donnees a jour.
 
 ---
 
-## Notion 4 — Hugging Face Hub
+## Notion 4 - Hugging Face Hub
 
 **Définition** : Hugging Face est une plateforme en ligne (https://huggingface.co) qui héberge des milliers de modèles de machine learning. On peut y télécharger des modèles pour les exécuter localement ou les interroger via une API d'inférence gratuite.
 
@@ -69,7 +71,7 @@ La capitale de la France est Paris.
 
 ---
 
-## Notion 5 — L'inférence via API
+## Notion 5 - L'inférence via API
 
 **Définition** : l'inférence est le processus qui consiste à utiliser un modèle entraîné pour produire une réponse à partir d'une entrée. L'inférence via API signifie que le modèle est hébergé sur un serveur distant et que vous l'interrogez via une requête HTTP, sans avoir à le télécharger.
 

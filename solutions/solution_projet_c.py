@@ -1,4 +1,4 @@
-# Solution Projet C — Analyseur de texte JSON complet
+﻿# Solution Projet C - Analyseur de texte JSON complet
 # Ce fichier est un corrigé de référence.
 
 import json

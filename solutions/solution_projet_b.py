@@ -1,4 +1,4 @@
-# Solution Projet B — Assistant entreprise RAG complet
+﻿# Solution Projet B - Assistant entreprise RAG complet
 # Ce fichier est un corrigé de référence.
 
 import os

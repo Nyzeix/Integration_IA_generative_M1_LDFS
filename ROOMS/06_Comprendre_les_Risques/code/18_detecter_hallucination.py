@@ -1,5 +1,5 @@
-# Script 18 — Détecter des hallucinations : 5 questions factuelles
-# Room 06 — Comprendre les risques
+﻿# Script 18 - Détecter des hallucinations : 5 questions factuelles
+# Room 06 - Comprendre les risques
 
 import sys
 import os

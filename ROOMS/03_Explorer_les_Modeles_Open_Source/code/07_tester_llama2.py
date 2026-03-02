@@ -1,5 +1,5 @@
-# Script 07 — Interroger Llama 2 via l'API Hugging Face
-# Room 03 — Explorer les modèles open source
+﻿# Script 07 - Interroger Llama 2 via l'API Hugging Face
+# Room 03 - Explorer les modèles open source
 
 import os
 import requests
@@ -16,7 +16,7 @@ headers = {
     "Authorization": f"Bearer {HF_TOKEN}"
 }
 
-# Le même prompt que pour Mistral — la comparaison doit être équitable
+# Le même prompt que pour Mistral - la comparaison doit être équitable
 prompt = "Explique en 3 phrases simples ce qu'est une base de données relationnelle."
 
 payload = {

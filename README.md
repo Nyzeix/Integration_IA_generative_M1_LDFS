@@ -1,4 +1,4 @@
-# Intégration des systèmes d'IA générative — M1 LDFS
+﻿# Intégration des systèmes d'IA générative - M1 LDFS
 
 Bienvenue dans ce dépôt pédagogique conçu pour le cours de Master 1 intitulé **« Intégration des systèmes d'IA générative »**.
 
@@ -31,7 +31,7 @@ Aucune connaissance en mathématiques, statistiques ou machine learning n'est re
 
 ---
 
-## API gratuites — Aucun paiement nécessaire
+## API gratuites - Aucun paiement nécessaire
 
 Ce cours est conçu pour fonctionner entièrement avec des API gratuites. Vous avez 3 options :
 
@@ -104,13 +104,13 @@ Commencez par la Room 01 et progressez dans l'ordre. Chaque Room suppose que les
 Chaque Room contient les fichiers suivants :
 
 ```
-README.md          — Objectif, résultat attendu, liste des fichiers
-theory.md          — Explications des notions, avec exemples concrets
-practice.md        — Exercices guidés, étape par étape
-challenge.md       — Extension plus avancée pour aller plus loin
-rubric.md          — Critères d'évaluation
-code/              — Scripts Python commentés ligne par ligne
-expected_outputs/  — Exemples de ce que vous devez obtenir
+README.md          - Objectif, résultat attendu, liste des fichiers
+theory.md          - Explications des notions, avec exemples concrets
+practice.md        - Exercices guidés, étape par étape
+challenge.md       - Extension plus avancée pour aller plus loin
+rubric.md          - Critères d'évaluation
+code/              - Scripts Python commentés ligne par ligne
+expected_outputs/  - Exemples de ce que vous devez obtenir
 ```
 
 ---
@@ -118,10 +118,10 @@ expected_outputs/  — Exemples de ce que vous devez obtenir
 ## Dossiers transverses
 
 ```
-datasets/    — Fichiers de données utilisés dans les exercices
-templates/   — Modèles de rapport et de livrable
-solutions/   — Corrigés des exercices (à consulter après avoir essayé)
-evaluation/  — Barèmes et grilles d'évaluation du cours
+datasets/    - Fichiers de données utilisés dans les exercices
+templates/   - Modèles de rapport et de livrable
+solutions/   - Corrigés des exercices (à consulter après avoir essayé)
+evaluation/  - Barèmes et grilles d'évaluation du cours
 ```
 
 ---
