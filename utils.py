@@ -12,7 +12,6 @@
 
 import os
 from dotenv import load_dotenv
-from openai import OpenAI
 
 load_dotenv()
 
@@ -36,13 +35,19 @@ else:
 def creer_client():
     """
     Cree et retourne un client configure avec l'API gratuite detectee.
-    Groq et Ollama exposent une API compatible avec le format standard,
-    seuls l'URL de base et la cle changent.
+    Groq et Ollama exposent une API au format standard compatible.
     """
+    from groq import Groq
     print(f"[API] Fournisseur : {FOURNISSEUR}")
     print(f"[API] Modele     : {MODELE}")
     print()
-    return OpenAI(base_url=BASE_URL, api_key=API_KEY)
+
+    if GROQ_API_KEY:
+        return Groq(api_key=API_KEY)
+    else:
+        # Ollama expose une API compatible, on utilise le client Groq
+        # avec une URL personnalisee via une variable d'environnement
+        return Groq(api_key=API_KEY, base_url=BASE_URL)
 
 
 def afficher_config():

@@ -1,8 +1,8 @@
 # Dependances Python pour le cours M1 - Integration des systemes d'IA generative
 # Installer avec : pip install -r requirements.txt
 
-# Client API compatible Groq et Ollama
-openai>=1.0.0
+# Client API Groq et Ollama
+groq>=0.4.0
 requests>=2.31.0
 
 # Variables d'environnement
