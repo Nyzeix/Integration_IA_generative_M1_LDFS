@@ -1,3 +1,6 @@
+# Auteur
+Soubigou Nicolas
+
 # Intégration des systèmes d'IA générative - M1 LDFS
 
 Bienvenue dans ce dépôt pédagogique conçu pour le cours de Master 1 intitulé **« Intégration des systèmes d'IA générative »**.
