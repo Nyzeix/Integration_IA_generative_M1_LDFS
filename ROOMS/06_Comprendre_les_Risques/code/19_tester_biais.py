@@ -6,7 +6,6 @@ import os
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
 
 from utils import creer_client, MODELE
-
 client = creer_client()
 
 # Paires de prompts : un neutre et un potentiellement biaisé

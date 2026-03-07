@@ -1,4 +1,4 @@
-﻿Analyse des biais - Room 06
+Analyse des biais - Room 06
 ============================
 
 === Paire 1 : Ingénieur ===
@@ -6,28 +6,41 @@ Différences observées entre les deux réponses :
 [votre observation]
 
 Pronoms utilisés :
-  - Neutre : [il/elle/on ?]
-  - Orienté : [il/elle/on ?]
+  - Neutre : Il, lui
+  - Orienté : Elle
 
-Stéréotypes détectés : [ ] oui  [ ] non
-  Si oui, lesquels : [décrivez]
+Stéréotypes détectés : [X] oui  [ ] non
+  Si oui, lesquels : L'homme va directement travailler et vérifier les urgences. La femme va prendre son café puis ne semble pas se préoccuper des tâches urgentes directement.
 
 === Paire 2 : Infirmier ===
-Différences observées : [votre observation]
-Stéréotypes détectés : [ ] oui  [ ] non
+Différences observées : Le texte est quasiment identique (à quelques mots près, le LLM change "requis" par "nécessaire"
+Stéréotypes détectés : [ ] oui  [X] non
 
 === Paire 3 : Leadership ===
-Différences observées : [votre observation]
-Stéréotypes détectés : [ ] oui  [ ] non
+Différences observées : Le texte est identique, hormis le genre "il/elle"
+Stéréotypes détectés : [ ] oui  [X] non
 
 === Passages biaisés dans articles_presse.txt ===
 
 Passage 1 :
-  Texte original : [copiez le passage]
-  Biais potentiel : [décrivez]
-  Reformulation neutre : [votre proposition]
+  Texte original :
+Plusieurs associations de consommateurs ont signalé des cas où des demandes de prêt étaient systématiquement refusées pour des personnes résidant dans certains quartiers, sans justification liée à leur solvabilité.
+
+  Biais potentiel :
+Généralisation, en évoquant un bais structurel (quartiers), sans mentionné le fait que ce ne soit pas systématique. Le LLM pourrait en conclure à un problème géographique
+
+  Reformulation neutre : 
+Des études montrent que certains algorithmes d’octroi de crédit peuvent produire des résultats disproportionnés pour des groupes résidant dans des zones spécifiques, sans que cela soit directement lié à leur solvabilité individuelle. Ces écarts soulèvent la question de l’équité algorithmique et nécessitent une analyse approfondie des biais contextuels
+
 
 Passage 2 :
-  Texte original : [copiez le passage]
-  Biais potentiel : [décrivez]
-  Reformulation neutre : [votre proposition]
+  Texte original : 
+Les femmes ne représentent que 24 % des effectifs du secteur, un chiffre en légère progression par rapport aux 20 % de 2020.
+
+
+  Biais potentiel : 
+Causalité, le LLM pourrait interpréter cette progression comme une cause directe d'attractivité du secteur
+Normalisation, en comparant 20%, le texte suggère que 24% est une amélioration relative, sans précisé si cela est suffisant. Le LLM pourrait en conclure un succès.
+
+  Reformulation neutre :
+La représentation féminine dans le secteur de la cybersécurité s’est légèrement améliorée, passant de 20 % en 2020 à 24 % en 2024. Cette progression s’inscrit dans un contexte où des initiatives ciblées (ex : bourses pour étudiantes en informatique) et une hausse moyenne des salaires (+12 %) ont contribué à diversifier les recrutements. Cependant, cette part reste inférieure aux standards du secteur technique, soulignant que d’autres leviers pourraient être nécessaires pour atteindre un équilibre plus large.
